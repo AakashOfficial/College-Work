@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Book Management System</title>
+	<script src="js/angular.js"></script>
+	<script src="js/angular-route.min.js"></script>
+	<link rel="stylesheet" href="bootstrap.min.css" />
+	<style tyle="text/css">
+		body{
+			background: #f3f3da;
+		}
+		h1{
+			text-align: center;
+			color: #18a2c3;
+			margin-top: 40px;
+			background: #a6d6e6;
+			width: 100%;
+			height: 65px;
+			line-height: 65px;
+		}
+		.table{
+			text-align: center;
+			margin-top: 25px;
+		}
+
+		.table tr{
+			width: 100%;
+		}
+		.search{
+			height:50px;
+			display: flex;
+			align-items: center;
+			margin:45px 0;
+		}
+		.search select{
+			height: 30px;
+			border-radius: 5px;
+		}
+		.search input{
+			margin-left: 5px;
+		}
+		.search input:nth-child(3){
+			margin-left: 100px;
+		}
+		.search button{
+			margin-left: 5px;
+		}
+
+	</style>
+</head>
+<body ng-app="myapp" ng-controller="controller">
+	<h1>Library management system</h1>
+		<div class="search">
+			<select ng-model="currentVal" >
+				<option value="bookId">Book number</option>
+				<option value="bookName">Title</option>
+				<option value="author">The author</option>
+			</select>
+
+			<input type="text" ng-model="inputVal" class="form-control" />
+
+			<input type="text" ng-model="inputValNum" class="form-control" placeholder="Book number" />
+			<input type="text" ng-model="inputValName" class="form-control" placeholder="Title"/>
+			<input type="text" ng-model="inputValprice" class="form-control" placeholder="price"/>
+
+			<input type="text" ng-model="inputValAuthor" class="form-control" placeholder="The author"/>
+			<button class="btn btn-primary" ng-click="add()">Add to</button>
+		</div>
+	<table class="table table-bordered  table-hover  table-striped row">
+		<tr style="background:#9ad" class="">
+			<td ng-click="sortcurr(0)" class="col-md-2">Serial number</td>
+			<td ng-click="sortcurr(1)" class="col-md-2">Title</td>
+			<td ng-click="sortcurr(2)" class="col-md-2">Price</td>
+			<td ng-click="sortcurr(3)" class="col-md-2">The author</td>
+			<td class="col-md-2">Modify</td>
+			<td class="col-md-2">Delete</td>
+
+		</tr>
+		<tr ng-repeat="person in persons| filter:changeType() |orderBy:num:false">
+			<td class="col-md-2">
+				<p ng-bind="person.bookId"></p>
+			</td>
+			<td class="col-md-2">
+				<p ng-bind="person.bookName" ng-show="show"></p>
+				<input type="text" ng-hide="show" class="form-control width " ng-model="person.bookName"/>
+			</td>
+			<td class="col-md-2">
+				<p ng-bind="person.price" ng-show="show"></p>
+				<input type="text" ng-hide="show" class="form-control width " ng-model="person.price"/>
+			</td>
+			<td class="col-md-2">
+				<p ng-bind="person.author" ng-show="show"></p>
+				<input type="text" ng-hide="show" class="form-control width " ng-model="person.author"/>
+			</td>
+			<td class="col-md-2">
+				<a href="#" ng-click="change(person,$index)" ng-show="show">{{del}}</a>
+				<a href="#" ng-click = "update(person,$index)" ng-hide="show" >Determine</a>
+				<a href="#" ng-click = "cancle(person,$index)" ng-hide="show" >Cancel</a>
+			</td>
+			<td class="col-md-2"><a href="#" ng-click="delete(person,$index)">Delete</a></td>
+
+		</tr>
+	</table>
+
+</body>
+<script>
+var myapp=angular.module('myapp',[]);
+myapp.service('getUser',['$http',function($http){
+	this.select=function(url,callback){
+		$http.get(url).success(function(a){
+			console.log(1);
+			callback(a);
+		});
+	}
+	this.add=function(url,data,callback){
+		// $http.get(url,{})
+		$http.get(url,data).success(function(a){
+			callback(a);
+		});
+	}
+	this.delete=function(url,data,callback){
+		$http.get(url,data).success(function(a){
+			console.log(11111);
+			callback(a);
+		});
+	}
+	this.update=function(url,data,callback){
+		$http.get(url,data).success(function(a){
+			callback(a);
+		});
+	}
+
+
+}])
+myapp.controller("controller", ['getUser','$scope',function (getUser,$scope) {
+       // data is presented
+    $scope.show=true;
+    $scope.del='Modify';
+    $scope.changeType=function(){
+    	return {[this.currentVal]:this.inputVal};
+    };
+    $scope.currentVal='bookId';
+    getUser.select("db.php?option=select",function(data){
+    	$scope.persons=data;
+    })
+    $scope.add=function(){
+    	if (!this.inputValNum||!this.inputValName||!this.inputValAuthor) {
+			alert("Please enter the full parameters")
+			return -1;
+		}
+		//create the object
+		var newBook = {
+			bookId:this.inputValNum,
+			bookName:this.inputValName,
+			price:this.inputValprice,
+			author:this.inputValAuthor,
+			show:true,
+		}
+
+		this.inputValNum = '';
+		this.inputValName = '';
+		this.inputValAuthor = '';
+		this.inputValprice='';
+    	getUser.add('db.php',{params:{"option":"add","book":newBook}},function(data){
+    		$scope.persons=data;
+    	})
+    }
+    $scope.delete=function(person,index){
+    	getUser.delete('db.php',{params:{"option":"delete",'bookId':person.bookId}},function(data){
+    		console.log(person.bookId);
+
+    		console.log(data);
+    		$scope.persons=data;
+    	})
+    }
+    var changebook={};
+    $scope.change=function(person,index){
+    	this.show=!this.show;
+    	console.log(person);
+    	changebook={
+    		'bookId':person.bookId,
+    		'bookName':person.bookName,
+    		'price':person.price,
+    		'author':person.author
+    	};
+
+    }
+    $scope.update=function(person,index){
+    	console.log(person);
+    	getUser.update('db.php',{params:{"option":"update","book":person}},function(data){
+    		console.log(person.bookId);
+    		console.log(data);
+    		$scope.persons=data;
+    	})
+    }
+	$scope.cancle = function(person,index){
+    	this.show=!this.show;
+    	person.bookId=changebook.bookId;
+    	person.bookName=changebook.bookName;
+    	person.price=changebook.price;
+    	person.author=changebook.author;
+
+	}
+
+
+}])
+
+
+
+
+</script>
+</html>
+
