@@ -4,8 +4,8 @@ import javax.swing.*;
 import java.sql.*;
 import java.util.*;
 
-public class hospital extends JApplet implements ActionListener {
-	JFrame f1 = new JFrame("LIFELINE HoSPITALS");
+public class Hospital extends JApplet implements ActionListener {
+	JFrame f1 = new JFrame("LIFELINE HOSPITALS");
 	JPanel p1 = new JPanel();
 	JPanel p2 = new JPanel();
 	JPanel p3 = new JPanel();
@@ -106,7 +106,7 @@ public class hospital extends JApplet implements ActionListener {
 	GridBagLayout g = new GridBagLayout();
 	GridBagConstraints c = new GridBagConstraints();
 
-	hospital() {
+	Hospital() {
 		f.setVisible(true);
 		f.setSize(800, 800);
 		fpop.setSize(400, 200);
@@ -657,6 +657,6 @@ public class hospital extends JApplet implements ActionListener {
 	}
 
 	public static void main(String args[]) {
-		hospital obj = new hospital();
+		Hospital obj = new Hospital();
 	}
 }
