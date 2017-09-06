@@ -7,7 +7,7 @@ import java.sql.*;
 import java.util.*;
 
 public class Hospital extends JApplet implements ActionListener {
-	JFrame f1 = new JFrame("LIFELINE HoSPITALS");
+	JFrame f1 = new JFrame("TYAGI LIFELINE HOSPITALS");
 	JPanel p1 = new JPanel();
 	JPanel p2 = new JPanel();
 	JPanel p3 = new JPanel();
@@ -551,8 +551,8 @@ public class Hospital extends JApplet implements ActionListener {
 
 		if (ae.getActionCommand().equals("Admit")) {
 			try {
-				Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
-				Connection con = DriverManager.getConnection("jdbc:odbc:mydsn", "sa", "niit61");
+				Class.forName("com.mysql.jdbc.Driver");
+				Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital", "root", "@aakash");
 				PreparedStatement stmt = con.prepareStatement("INSERT into project VALUES(?,?,?,?,?,?,?,?,?,?)");
 				stmt.setString(1, tid1.getText());
 				stmt.setString(2, tname1.getText());
@@ -583,8 +583,8 @@ public class Hospital extends JApplet implements ActionListener {
 			Calendar cal = Calendar.getInstance();
 			String str3 = cal.get(Calendar.DATE) + "-" + (cal.get(Calendar.MONTH) + 1) + "-" + cal.get(Calendar.YEAR);
 			try {
-				Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
-				Connection con = DriverManager.getConnection("jdbc:odbc:mydsn", "sa", "niit61");
+				Class.forName("com.mysql.jdbc.Driver");
+				Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital", "root", "@aakash");
 				PreparedStatement stmt2 = con.prepareStatement("SELECT * FROM project where id=?");
 				stmt2.setString(1, tid2.getText());
 				ResultSet rs2 = stmt2.executeQuery();
@@ -626,8 +626,8 @@ public class Hospital extends JApplet implements ActionListener {
 			String s1phone = "";
 			String s1bill = "";
 			try {
-				Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
-				Connection con = DriverManager.getConnection("jdbc:odbc:mydsn", "sa", "niit61");
+				Class.forName("com.mysql.jdbc.Driver");
+				Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital", "root", "@aakash");
 				PreparedStatement stmt3 = con.prepareStatement("SELECT * FROM project where name=?");
 				stmt3.setString(1, tname3.getText());
 				ResultSet rs3 = stmt3.executeQuery();
