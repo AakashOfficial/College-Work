@@ -1,0 +1,44 @@
+oftware engineering provides methods to handle complexities in a software system and enables the development of reliable software systems, which maximize productivity. In addition to the technical aspects of the software development, it also covers management activities which include guiding the team, budgeting, preparing schedules, etc. The notion of software engineering was first proposed in 1968. Since then, software engineering has evolved as a full-fledged engineering discipline, which is accepted as a field involving in-depth study and research. Software engineering methods and tools have been successfully implemented in various applications spread across different walks of life.
+
+
+Software is defined as a collection of programs, documentation and operating procedures. The Institute of Electrical and Electronic Engineers (IEEE) defines software as a 'collection of computer programs, procedures, rules and associated documentation and data.' It possesses no mass, no volume, and no colour, which makes it a non-degradable entity over a long period. Software does not wear out or get tired.
+
+Software controls, integrates, and manages the hardware components of a computer system. It also instructs the computer what needs to be done to perform a specific task and how it is to be done. For example, software instructs the hardware how to print a document, take input from the user, and display the output.
+
+Computer works only in response to instructions provided externally. Usually, the instructions to perform some intended tasks are organized into a program using a programming language like C, C++, Java, etc., and submitted to computer. Computer interprets and executes these instructions and provides response to the user accordingly. A set of programs intended to provide users with a set of interrelated functionalities is known as a software package. For example, an accounting software package such as Tally provides users the functionality to perform accounting-related activities.
+
+Software Characteristics
+
+Different individuals judge software on different basis. This is because they are involved with the software in different ways. For example, users want the software to perform according to their requirements. Similarly, developers involved in designing, coding, and maintenance of the software evaluate the software by looking at its internal characteristics, before delivering it to the user. Software characteristics are classified into six major components.
+
+• Functionality: Refers to the degree of performance of the software against its intended purpose.
+
+• Reliability: Refers to the ability of the software to provide desired functionality under the given conditions.
+
+• Usability: Refers to the extent to which the software can be used with ease.
+
+• Efficiency: Refers to the ability of the software to use system resources in the most effective and efficient manner.
+
+• Maintainability: Refers to the ease with which the modifications can be made in a software system to extend its functionality, improve its performance, or correct errors.
+
+• Portability: Refers to the ease with which software developers can transfer software from one platform to another, without (or with minimum) changes. In simple terms, it refers to the ability of software to function properly on different hardware and software platforms without making any changes in it.
+
+In addition to the above mentioned characteristics, robustness and integrity are also important. Robustness refers to the degree to which the software can keep on functioning in spite of being provided with invalid data while integrity refers to the degree to which unauthorized access to the software or data can be prevented.
+
+Classification of Software
+
+Software can be applied in countless fields such as business, education, social sector, and other fields. It is designed to suit some specific goals such as data processing, information sharing, communication, and so on. It is classified according to the range of potential of applications. These classifications are listed below.
+
+• System software: This class of software manages and controls the internal operations of a computer system. It is a group of programs, which is responsible for using computer resources efficiently and effectively. For example, an operating system is a system software, which controls the hardware, manages memory and multitasking functions, and acts as an interface between application programs and the computer.
+
+• Real-time software: This class of software observes, analyzes, and controls real world events as they occur. Generally, a real-time system guarantees a response to an external event within a specified period of time. An example of real-time software is the software used for weather forecasting that collects and processes parameters like temperature and humidity from the external environment to forecast the weather. Most of the defence organizations all over the world use real-time software to control their military hardware.
+
+• Business software: This class of software is widely used in areas where management and control of financial activities is of utmost importance. The fundamental component of a business system comprises payroll, inventory, and accounting software that permit the user to access relevant data from the database. These activities are usually performed with the help of specialized business software that facilitates efficient framework in business operations and in management decisions.
+
+• Engineering and scientific software: This class of software has emerged as a powerful tool in the research and development of next generation technology. Applications such as the study of celestial bodies, under-surface activities, and programming of an orbital path for space shuttles are heavily dependent on engineering and scientific software. This software is designed to perform precise calculations on complex numerical data that are obtained during real time environment.
+
+• Artificial intelligence (AI) software: This class of software is used where the problem-solving technique is non-algorithmic in nature. The solutions of such problems are generally non-agreeable to computation or straightforward analysis. Instead, these problems require specific problem-solving strategies that include expert system, pattern recognition, and game-playing techniques. In addition, they involve different kinds of search techniques which include the use of heuristics. The role of artificial intelligence software is to add certain degrees of intelligence to the mechanical hardware in order to get the desired work done in an agile manner.
+
+• Web-based software: This class of software acts as an interface between the user and the Internet. Data on the Internet is in the form of text, audio, or video format, linked with hyperlinks. Web browser is a software that retrieves web pages from the Internet. The software incorporates executable instructions written in special scripting languages such as CGI or ASP. Apart from providing navigation on the Web, this software also supports additional features that are useful while surfing the Internet.
+
+• Personal computer (PC) software: This class of software is used for both official and personal use. The personal computer software market has grown over in the last two decades from normal text editor to word processor and from simple paintbrush to advanced image-editing software. This software is used predominantly in almost every field, whether it is database management system, financial accounting package, or multimedia-based software. It has emerged as a versatile tool for routine applications.
