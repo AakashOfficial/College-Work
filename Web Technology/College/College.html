@@ -1,0 +1,32 @@
+<! doctype html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+<table>
+<tr>
+<td>Number 1</td><td><input type="text" id="n1" placeholder="Enter Number 1 Here" /></td>
+</tr>
+<tr><td>Number 2</td><td><input type="text" id="n2" placeholder="Enter Number 2 Here" /></td>
+</tr>
+<tr><td><input type="Submit" id="btn" onclick="Add()"value="Add" /></td>
+<td><input type="text" id="result" /></td>
+</tr>
+</table>
+<script>
+function Add(){
+var v1=parseInt(document.getElementById("n1").value);
+var v2=parseInt(document.getElementById("n2").value);
+
+var v3=v1+v2;
+
+document.getElementById("result").value=v3;
+}
+
+</script>
+
+</body>
+</html>
