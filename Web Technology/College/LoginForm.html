@@ -1,0 +1,57 @@
+<! doctype html>
+<html>
+
+<head>
+<title>Login Form</title>
+<head>
+
+<body>
+
+<form>
+
+<table>
+
+<tr>
+<td>User Id</td>
+<td><input type="text" id="uid" class="form" /></td>
+</tr>
+
+<tr>
+<td>Password</td>
+<td><input type="text" id="pwd" class="form" /></td>
+</tr>
+<tr>
+<td colspan="2">
+<pre>             <input type="submit" id="btn" value="Login" onclick="Verify()" />    </pre>
+</td>
+</tr>
+<table>
+
+</form>
+
+
+<script>
+Function Verify(){
+var v1="document.getElementById("n1").value;
+var v2="d
+ocument.getElementById("n2").value;
+
+var v3="Hello";
+var v4="Web";
+
+if(v1==v3 && v2==v4){
+
+document.write("Login Successfull\nWelcome"+v1);
+
+}
+if(v1!=v3 && v2!=v4){
+
+document.write("Invalid User");
+
+}
+}
+
+</script>
+
+</body>
+</html>
