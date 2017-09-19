@@ -1,0 +1,37 @@
+<! doctype html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+<table>
+<tr>
+<td>Basic Salary</td><td><input type="text" id="n1" placeholder="Enter Basic Salary Here" /></td>
+</tr>
+<tr><td>DA</td><td><input type="text" id="n2" placeholder="DA will Display Here" /></td>
+</tr>
+<tr><td>HRA</td><td><input type="text" id="n3" placeholder="HRA will Display Here" /></td>
+</tr>
+<tr><td><input type="Submit" id="btn" onclick="Add()"value="Calculate" /></td>
+<td><input type="text" id="result" /></td>
+</tr>
+</table>
+<script>
+function Add(){
+var v1=parseInt(document.getElementById("n1").value);
+var v2=.2*v1;
+var v3=.4*v1;
+
+var v4=v1+v2+v3;
+
+document.getElementById("n2").value=v2;
+document.getElementById("n3").value=v3;
+document.getElementById("result").value=v4;
+}
+
+</script>
+
+</body>
+</html>
