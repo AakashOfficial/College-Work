@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Counting with a global variable.</p>
+
+<button type="button" onclick="myFunction()">Count!</button>
+
+<p id="demo">0</p>
+
+<script>
+var counter = 0;
+
+function add() {
+    return counter += 1;
+}
+
+function myFunction(){
+    document.getElementById("demo").innerHTML = add();
+}
+</script>
+
+</body>
+</html>
