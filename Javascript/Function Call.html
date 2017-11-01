@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Functions</h2>
+<p>This <strong>apply()</strong> example uses the fullName method of person on myObject:</p>
+
+<p id="demo"></p>
+
+<script>
+var person = {
+    firstName:"Aakash",
+    lastName: "Tyagi",
+    fullName: function() {
+        return this.firstName + " " + this.lastName;
+    }
+}
+var myObject = {
+    firstName:"Shalu",
+    lastName: "Tyagi",
+}
+x = person.fullName.apply(myObject); 
+document.getElementById("demo").innerHTML = x; 
+</script>
+
+</body>
+</html>
+
+
