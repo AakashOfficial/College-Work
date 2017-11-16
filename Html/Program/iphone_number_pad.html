@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>iphone number pad</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        @import url(http://fonts.googleapis.com/css?family=Lato:300);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato' , sans-serif;
+    color: #333;
+    background-size: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+    background-color: #475264;
+}
+p
+{
+    margin: 0;
+    padding: 0 0 10px 0;
+    line-height: 20px;
+}
+.span4
+{
+    width: 80px;
+    float: left;
+    margin: 0 8px 10px 8px;
+}
+
+.phone
+{
+    margin-top: 15px;
+    background: #fff;
+}
+.tel
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid #9e9e9e;
+    border-radius: 0px;
+}
+.num-pad
+{
+    padding-left: 15px;
+}
+
+
+.num
+{
+    border: 1px solid #9e9e9e;
+    -webkit-border-radius: 999px;
+    border-radius: 999px;
+    -moz-border-radius: 999px;
+    height: 80px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+.num:hover
+{
+    background-color: #9e9e9e;
+    color: #fff;
+    transition-property: background-color .2s linear 0s;
+    -moz-transition: background-color .2s linear 0s;
+    -webkit-transition: background-color .2s linear 0s;
+    -o-transition: background-color .2s linear 0s;
+}
+.txt
+{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Lato' , sans-serif;
+    line-height: 30px;
+    color: #333;
+}
+.small
+{
+    font-size: 15px;
+}
+
+.btn
+{
+    font-weight: bold;
+    -webkit-transition: .1s ease-in background-color;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 1px;
+}
+.btn:hover
+{
+    transition-property: background-color .2s linear 0s;
+    -moz-transition: background-color .2s linear 0s;
+    -webkit-transition: background-color .2s linear 0s;
+    -o-transition: background-color .2s linear 0s;
+}
+.spanicons
+{
+    width: 72px;
+    float: left;
+    text-align: center;
+    margin-top: 40px;
+    color: #9e9e9e;
+    font-size: 30px;
+    cursor: pointer;
+}
+.spanicons:hover
+{
+    color: #3498db;
+    transition-property: color .2s linear 0s;
+    -moz-transition: color .2s linear 0s;
+    -webkit-transition: color .2s linear 0s;
+    -o-transition: color .2s linear 0s;
+}
+.active
+{
+    color: #3498db;
+}
+
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4 phone">
+            <div class="row1">
+                <div class="col-md-12">
+                <input type="tel" name="name" id="telNumber" class="form-control tel" value="" />
+                    <div class="num-pad">
+                    <div class="span4">
+                        <div class="num">
+                            <div class="txt">
+                                1
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="num">
+                            <div class="txt">
+                                2 <span class="small">
+                                    <p>
+                                        ABC</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="num">
+                            <div class="txt">
+                                3 <span class="small">
+                                    <p>
+                                        DEF</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="num">
+                            <div class="txt">
+                                4 <span class="small">
+                                    <p>
+                                        GHI</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="num">
+                            <div class="txt">
+                                5 <span class="small">
+                                    <p>
+                                        JKL</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="num">
+                            <div class="txt">
+                                6 <span class="small">
+                                    <p>
+                                        MNO</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="num">
+                            <div class="txt">
+                                7 <span class="small">
+                                    <p>
+                                        PQRS</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="num">
+                            <div class="txt">
+                                8 <span class="small">
+                                    <p>
+                                        TUV</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="num">
+                            <div class="txt">
+                                9 <span class="small">
+                                    <p>
+                                        WXYZ</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="num">
+                            <div class="txt">
+                                *
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="num">
+                            <div class="txt">
+                                0 <span class="small">
+                                    <p>
+                                        +</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="num">
+                            <div class="txt">
+                                #
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                        <a href="http://www.jquery2dotnet.com" class="btn btn-success btn-block flatbtn">CALL</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div>
+                        <div class="spanicons">
+                            <span class="glyphicon glyphicon-star"></span><span class="small">
+                                <p>
+                                    Favorites</p>
+                            </span>
+                        </div>
+                        <div class="spanicons">
+                            <span class="glyphicon glyphicon-earphone"></span><span class="small">
+                                <p>
+                                    Calls</p>
+                            </span>
+                        </div>
+                        <div class="spanicons">
+                            <span class="glyphicon glyphicon-user"></span><span class="small">
+                                <p>
+                                    Contacts</p>
+                            </span>
+                        </div>
+                        <div class="spanicons active">
+                            <span class="glyphicon glyphicon-th"></span><span class="small">
+                                <p>
+                                    Keyboard</p>
+                            </span>
+                        </div>
+                        <div class="spanicons">
+                            <i class="fa fa-microphone"></i><span class="small">
+                                <p>
+                                    Voice mail</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function () {
+
+    $('.num').click(function () {
+        var num = $(this);
+        var text = $.trim(num.find('.txt').clone().children().remove().end().text());
+        var telNumber = $('#telNumber');
+        $(telNumber).val(telNumber.val() + text);
+    });
+
+});
+</script>
+</body>
+</html>
