@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>loading</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        body
+{
+	margin:0;
+	padding:80px;
+}	
+.main
+{
+	margin: auto;
+	padding: 0;
+	width: 90%;
+}
+.box
+{
+	margin: 0;
+	padding: 0;
+	border-width:100px;
+	border-style: solid;
+	border-color: #000;
+	animation-name:first;
+	animation-duration:1s;
+	animation-iteration-count:infinite;
+}
+@keyframes first
+{
+	0% {border-color: #000 transparent transparent transparent;}
+	25% {border-color:transparent #000 transparent transparent;}
+	50% {border-color:transparent transparent #000 transparent;}
+	75% {border-color:transparent transparent transparent #000;}
+	100% {border-color: #000 transparent transparent transparent; }
+}
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="col-sm-1 box"></div>
+
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
