@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -8,7 +7,7 @@
 	<!-- CSS Files -->
     <link href="table.css" rel="stylesheet">
 	<link href="Header.css" rel="stylesheet">
-	<link href="Faculty.css" rel="stylesheet"/>
+	<link href="Faculty.css" rel="stylesheet" />
           
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -68,6 +67,16 @@
 
 
 </div>
+
+
+
+
+
+
+
+
+
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <section class="team">
   <div class="container">
@@ -258,7 +267,7 @@
      <div class="container">
        
          <div class="row text-center">
-         	<p>Copyright © 2017 All rights reserved</p>
+         	<p>Copyright Tyagi & Sons 2017 All rights reserved</p>
          </div>
          <div class="col-md-10 col-md-offset-1 text-center">
             
