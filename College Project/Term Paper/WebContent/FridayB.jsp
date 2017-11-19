@@ -32,12 +32,13 @@
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="Table.jsp">Home</a></li>
+            <li><a href="#">News</a></li>
 			<li><a href="CSE-A.jsp">CSE A</a></li>
             <li><a href="CSE-B.jsp">CSE B</a></li>
             <li><a href="CSE-C.jsp">CSE C</a></li>
             <li><a href="CSE-D.jsp">CSE D</a></li>
-			<li><a href="AboutUs.jsp">About</a></li>
-            <li><a href="ContactUs.jsp">Contact Us</a></li>
+			<li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
             <li>
               <a class="btn btn-default btn-outline btn-circle collapsed"  data-toggle="collapse" href="#nav-collapse1" aria-expanded="false" aria-controls="nav-collapse1">Menu</a>
             </li>
@@ -47,7 +48,7 @@
             <li><a href="CSE-B.jsp">CSE B</a></li>
             <li><a href="CSE-C.jsp">CSE C</a></li>
             <li><a href="CSE-D.jsp">CSE D</a></li>
-			<li><a href="AboutUs.jsp">About Us</a></li>
+			<li><a href="#">About Us</a></li>
             <li><a href="#">Like</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -59,10 +60,6 @@
      <table>
 	    <tr>
 		  <th>Time Duration</th>
-		  <th colspan="2">Monday</th>
-		  <th colspan="2">Tuesday</th>
-		  <th colspan="2">Wednesday</th>
-		  <th colspan="2">Thursday</th>
 		  <th colspan="2">Friday</th>
 		</tr>
 		
@@ -70,33 +67,14 @@
 		   <td>GROUP</td>
 		   <td id="g1">G1</td>
 		   <td id="g2">G2</td>
-		   <td id="g1">G1</td>
-		   <td id="g2">G2</td>
-		   <td id="g1">G1</td>
-		   <td id="g2">G2</td>
-		   <td id="g1">G1</td>
-		   <td id="g2">G2</td>
-		   <td id="g1">G1</td>
-		   <td id="g2">G2</td>
 		<tr>
 		
 		<tr>
 		   <td>8:45-9:40</td>
-		   <td colspan="2"> HMM305 <br/> <sub><pre>310 BLOCK-1            <a href="SN.jsp">SN</a></pre></sub> </td>
-		   <td colspan="2">   </td>
-		   <td>CMP002</td>
-		   <td>CSE331</td>
-		   <td rowspan="2"> INT353 <br/></td>
-		   <td>CSE202</td>
 		   <td colspan="2"> CSE202 <br/> <sub><pre>310 BLOCK-1            <a href="AU.jsp">AU</a></pre></sub> </td>
 		</tr>
 
 		<tr>
-		   <td>9:40-10:35</td>
-		   <td colspan="2"> CSE202 <br/> <sub><pre>310 BLOCK-1            <a href="AU.jsp">AU</a></pre></sub> </td>
-		   <td colspan="2">   </td>
-		   <td colspan="2"> CSE320 <br/> <sub><pre>310 BLOCK-1           <a href="KKR.jsp">KKR</a></pre></sub> </td>
-		   <td> CSE310 </td>
 		   <td>CMP002</td>
 		   <td>CSE331</td>
 		</tr>
@@ -104,67 +82,39 @@
 		<tr>
 		   <td>10:35-11:30</td>
 		   <td colspan="2"> CSE320 <br/> <sub><pre>310 BLOCK-1           <a href="KKR.jsp">KKR</a></pre></sub> </td>
-		   <td colspan="2">   </td>
-		   <td colspan="2"> INT303 <br/> <sub><pre>310 BLOCK-1            <a href="SG.jsp">SG</a></pre></sub> </td>
-		   <td>CSE320</td>
-		   <td rowspan="2"> CSE310 <br/> <sub></sub> </td>
-		   <td colspan="2"> CSE320 <br/> <sub><pre>310 BLOCK-1           <a href="KKR.jsp">KKR</a></pre></sub> </td>
 		</tr>
 
 		<tr>
 		   <td>11:30-12:25</td>
-		   <td>CMP002</td>
-		   <td>CSE331</td>
-		   <td colspan="2"> CSE202 <br/> <sub><pre>310 BLOCK-1            <a href="AU.jsp">AU</a></pre></sub> </td>
-		   <td colspan="2"> INT320 <br/> <sub><pre>310 BLOCK-1            <a href="AM.jsp">AM</a></pre></sub> </td>
-		   <td>CSP381</td>
 		   <td colspan="2"> LUNCH <br/> <sub><<pre>         LUNCH           </pre></sub> </td>
 		</tr>
 
 		<tr>
 		   <td>12:25-1:20</td>
-		   <td colspan="2"> LUNCH <br/> <sub><<pre>         LUNCH           </pre></sub> </td>
-		   <td colspan="2"> HMM305 <br/> <sub><pre>310 BLOCK-1            <a href="SN.jsp">SN</a></pre></sub> </td>
-		   <td colspan="2">LUNCH <br/> <sub><pre>         LUNCH           </pre></sub> </td>
-		   <td colspan="2">LUNCH <br/> <sub><pre>         LUNCH           </pre></sub> </td>
 		   <td colspan="2">INT303 <br/> <sub><pre>310 BLOCK-1            <a href="SG.jsp">SG</a></pre></sub></td>
 		</tr>
 		
 		<tr>
 		   <td>1:20-2:15</td>
-		   <td colspan="2"> INT303 <br/> <sub><pre>310 BLOCK-1            <a href="SG.jsp">SG</a></pre></sub> </td>
-		   <td colspan="2"> HMM305 <br/> <sub><pre>310 BLOCK-1            <a href="SN.jsp">SN</a></pre></sub> </td>
-		   <td> INT303 <br/> <sub></sub> </td>
-		   <td>CSE320</td>
-		   <td>CMP002</td>
-		   <td>CSE331</td>
 		   <td colspan="2"> CSE310 <br/> <sub><pre>310 BLOCK-1            <a href="GA.jsp">GA</a></pre></sub> </td>
 		</tr>
 		
 		<tr>
 		   <td>2:15-3:10</td>
-		   <td>CSE202</td>
-		   <td rowspan="2">INT353</td>
-		   <td colspan="2"> CSE310 <br/> <sub><pre>310 BLOCK-1            <a href="GA.jsp">GA</a></pre></sub> </td>
-		   <td rowspan="2">CSP310</td>
-		   <td>INT303</td>
-		   <td colspan="2"> CSE310 <br/> <sub><pre>310 BLOCK-1            <a href="GA.jsp">GA</a></pre></sub> </td>
 		   <td colspan="2"> INT320 <br/> <sub><pre>310 BLOCK-1            <a href="AM.jsp">AM</a></pre></sub> </td>
 		   
 		</tr>
         
 		<tr>
 		   <td>3:10-4:05</td>
-		   <td>CSE310</td>
-		   <td colspan="2"> INT320 <br/> <sub><pre>310 BLOCK-1            <a href="AM.jsp">AM</a></pre></sub> </td>
-           <td>   </td>
-		   <td colspan="2"> INT320 <br/> <sub><pre>310 BLOCK-1            <a href="AM.jsp">AM</a></pre></sub> </td>
 		   <td> </td>
 		   <td> CSP381 <br/> <sub></sub> </td>
 		</tr>
 		
 	 </table>
 	</center> 
+	
+	
 	
 	
 	
@@ -239,6 +189,6 @@
 		
 <script type="text/javascript">
 
-</script>
+</script>	
    </body>
  </html>

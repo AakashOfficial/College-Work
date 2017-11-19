@@ -125,5 +125,83 @@
 		
 	 </table>
 	</center> 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">   	   
+    
+    <footer>
+        
+        <div class="footer-top"> 
+           <div class="container">
+             <div class="col-lg-2 col-xs-12 text-center">
+                 <a href="https://www.facebook.com/aakash.tyagi.58367116"><i class="fa fa-facebook fa-2x"></i>Facebook</a>
+             </div>
+              <div class="col-lg-2 col-xs-12 text-center">
+                 <a href="#"><i class="fa fa-twitter fa-2x"></i>Twitter</a>
+             </div>
+              <div class="col-lg-2 col-xs-12 text-center">
+                 <a href="https://www.linkedin.com/in/aakash-tyagi-b15740136/"><i class="fa fa-linkedin fa-2x"></i>Linked In</a>
+             </div>
+             <div class="col-lg-2 col-xs-12 text-center">
+                 <a href="https://github.com/AakashOfficial"><i class="fa fa-github fa-2x"></i>Github</a>
+             </div> 
+              <div class="col-lg-2 col-xs-12 text-center">
+                 <a href="https://plus.google.com/u/0/114442680763328611868"><i class="fa fa-google-plus fa-2x"></i>Google</a>
+             </div>
+           </div> 
+        </div>  
+        
+        <div class="container" style="border-top:1px solid grey;">
+            <div class="row text-center">   
+                <div class="col-lg-6 col-lg-offset-3">
+                      <ul class="menu">
+                                 
+                             <li>
+                                <a href="Table.jsp">Home</a>
+                              </li>
+                                   
+                              <li>
+                                 <a href="AboutUs.jsp">About Us</a>
+                              </li>
+                                                                                                   
+                              <li>
+                                <a href="ContactUS.jsp">Contact</a>
+                             </li>
+                   
+                        </ul>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    
+    
+    <div class="copyright">
+     <div class="container">
+       
+         <div class="row text-center">
+         	<p>Copyright Tyagi and Sons 2017 All rights reserved</p>
+         </div>
+         
+ 	   </div>
+    </div>
+    
+	
+	
+		
+		
+<script type="text/javascript">
+
+</script>	
    </body>
  </html>

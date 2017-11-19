@@ -70,7 +70,17 @@
 
 
 
-<h2>Time Table</h2>       
+<div class="container">   
+    <div class="row">
+    <address>
+        author by: Aakash Tyagi
+    </address>
+        </div>
+    </div>
+
+
+
+      
        
 	   <div></div>
 	   
@@ -176,15 +186,11 @@
                               </li>
                                    
                               <li>
-                                 <a href="#">About Us</a>
+                                 <a href="AboutUs.jsp">About Us</a>
                               </li>
-                                   
+                                                                                                   
                               <li>
-                                <a href="#">Blog</a>
-                              </li>
-                                                                     
-                              <li>
-                                <a href="#">Contact</a>
+                                <a href="ContactUS.jsp">Contact</a>
                              </li>
                    
                         </ul>

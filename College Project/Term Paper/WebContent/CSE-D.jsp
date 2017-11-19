@@ -107,88 +107,152 @@
 		
 		<tr>
 		   <td>8:45-9:40</td>
-		   <td colspan="2"> CSE320 <br/> <sub><pre>309A BLOCK-1                    MCH</pre></sub> </td>
-		   <td colspan="2"> CSE320 <br/> <sub><pre>309A BLOCK-1                    MCH</pre></sub> </td>
-		   <td>CMP002</td>
-		   <td>CSE331</td>
-		   <td colspan="2"> HMM305 <br/> <sub><pre>309A BLOCK-1                    SN</pre></sub> </td>
-		   <td colspan="2"> INT303 <br/> <sub><pre>309A BLOCK-1                    NS</pre></sub> </td>
+		   <td colspan="2"> CSE202 <br/> <sub><pre>313A BLOCK-1          <a href="RA.jsp">RA</a></pre></sub> </td>
+		   <td colspan="2"> CSE320 <br/> <sub><pre>313A BLOCK-1          <a href="DP.jsp">DP</a></pre></sub> </td>
+		   <td colspan="2"> </td>
+		   <td colspan="2"> CSE305 <br/> <sub><pre>313A BLOCK-1          <a href="JS.jsp">JS</a></pre></sub> </td>
+		   <td colspan="2"> HMM305 <br/> <sub><pre>313A BLOCK-1          <a href="SN.jsp">SN</a></pre></sub> </td>
 		</tr>
 
 		<tr>
 		   <td>9:40-10:35</td>
-		   <td colspan="2"> CSE310 <br/> <sub><pre>309A BLOCK-1                    AM</pre></sub> </td>
-		   <td colspan="2"> CSE310 <br/> <sub><pre>309A BLOCK-1                    AM</pre></sub> </td>
-		   <td colspan="2"> CSE202 <br/> <sub><pre>309A BLOCK-1                    DG</pre></sub> </td>
-		   <td colspan="2"> CSE320 <br/> <sub><pre>309A BLOCK-1                    MCH</pre></sub> </td>
-		   <td>CMP002</td>
-		   <td>CSE331</td>
+		   <td colspan="2"> CSE306 <br/> <sub><pre>313A BLOCK-1          <a href="SK.jsp">SK</a></pre></sub> </td>
+		   <td colspan="2"> INT303 <br/> <sub><pre>313A BLOCK-1          <a href="AU.jsp">AU</a></pre></sub> </td>
+		   <td colspan="2"> </td>
+		   <td colspan="2"> INT303 <br/> <sub><pre>313A BLOCK-1          <a href="AU.jsp">AU</a></pre></sub> </td>
+		   <td colspan="2"> CSE202 <br/> <sub><pre>313A BLOCK-1          <a href="RA.jsp">RA</a></pre></sub> </td>
 		</tr>
 
 		<tr>
 		   <td>10:35-11:30</td>
-		   <td colspan="2"> INT303 <br/> <sub><pre>309A BLOCK-1                    NS</pre></sub> </td>
-		   <td colspan="2"> CSE202 <br/> <sub><pre>309A BLOCK-1                    DG</pre></sub> </td>
-		   <td colspan="2"> INT303 <br/> <sub><pre>309A BLOCK-1                    NS</pre></sub> </td>
-		   <td colspan="2"> CSE310 <br/> <sub><pre>309A BLOCK-1                    AM</pre></sub> </td>
-		   <td colspan="2"> HMM305 <br/> <sub><pre>309A BLOCK-1                    SN</pre></sub> </td>
+		   <td colspan="2"> CSP381 <br/> <sub><pre>313A BLOCK-1          <a href="DG.jsp">DG</a></pre></sub> </td>
+		   <td colspan="2"> CSE306 <br/> <sub><pre>313A BLOCK-1          <a href="SK.jsp">SK</a></pre></sub> </td>
+		   <td colspan="2"> </td>
+		   <td colspan="2"> CSE202 <br/> <sub><pre>313A BLOCK-1          <a href="RA.jsp">RA</a></pre></sub> </td>
+		   <td colspan="2"> CSE305 <br/> <sub><pre>313A BLOCK-1          <a href="JS.jsp">JS</a></pre></sub> </td>
 		</tr>
 
 		<tr>
 		   <td>11:30-12:25</td>
-		   <td>CSP002</td>
-		   <td>CSE331</td>
-		   <td colspan="2">LUNCH <br/> <sub><pre>LUNCH                               </pre></sub> </td>
-		   <td colspan="2"> INT320 <br/> <sub><pre>309A BLOCK-1                    AM</pre></sub> </td>
-		   <td>INT303</td>   
-		   <td>CSP381</td>
-		   <td colspan="2"> LUNCH <br/> <sub><pre>LUNCH                              </pre></sub> </td>
+		   <td colspan="2"> LUNCH  <br/> <sub><pre>                 LUNCH  </pre></sub> </td>
+		   <td colspan="2"> LUNCH  <br/> <sub><pre>                 LUNCH  </pre></sub> </td>
+		   <td colspan="2"> CSE320 <br/> <sub><pre>313A BLOCK-1          <a href="DP.jsp">DP</a></pre></sub> </td>
+		   <td colspan="2"> LUNCH  <br/> <sub><pre>                 LUNCH  </pre></sub> </td>
+		   <td colspan="2"> LUNCH  <br/> <sub><pre>                 LUNCH  </pre></sub> </td>
 		</tr>
 
 		<tr>
 		   <td>12:25-1:20</td>
-		   <td colspan="2"></td>
-		   <td rowspan="2">CSP310</td>
-           <td>CSE202</td>
-		   <td colspan="2">LUNCH <br/> <sub><pre>LUNCH                               </pre></sub> </td>
-		   <td colspan="2">LUNCH <br/> <sub><pre>LUNCH                               </pre></sub> </td>
-		   <td rowspan="2">INT353</td>
-		   <td rowspan="2">CSP310</td>
+		   <td colspan="2"> INT303 <br/> <sub><pre>313A BLOCK-1          <a href="AU.jsp">AU</a></pre></sub> </td>
+		   <td colspan="2"> </td>
+		   <td colspan="2"> CSE306 <br/> <sub><pre>313A BLOCK-1          <a href="SK.jsp">SK</a></pre></sub> </td>
+		   <td colspan="2"> CSE202 <br/> <sub><pre>313A BLOCK-1          <a href="RA.jsp">RA</a></pre></sub> </td>
+		   <td colspan="2"> INT303 <br/> <sub><pre>313A BLOCK-1          <a href="AU.jsp">AU</a></pre></sub> </td>
 		</tr>
 		
 		<tr>
 		   <td>1:20-2:15</td>
-		   <td colspan="2"> CSE202 <br/> <sub><pre>309A BLOCK-1                    DG</pre></sub> </td>
-		   <td>CSE320</td>
-		   <td colspan="2"> HMM305 <br/> <sub><pre>309A BLOCK-1                    SN</pre></sub> </td>
-		   <td>CMP002</td>
-		   <td>CSE331</td>
+		   <td colspan="2"> CSE320 <br/> <sub><pre>313A BLOCK-1          <a href="DP.jsp">DP</a></pre></sub> </td>
+		   <td colspan="2"> </td>
+		   <td colspan="2"> </td>
+		   <td colspan="2"> HMM305 <br/> <sub><pre>309A BLOCK-1          <a href="SN.jsp">SN</a></pre></sub> </td>
+		   <td colspan="2"> CSE320 <br/> <sub><pre>313A BLOCK-1          <a href="DP.jsp">DP</a></pre></sub> </td>
 		</tr>
 		
 		<tr>
 		   <td>2:15-3:10</td>
-		   <td>CSP381</td>
-		   <td>INT303</td>
-		   <td colspan="2"></td>
-		   <td>CSE310</td>
-		   <td rowspan="2">INT353</td>
-		   <td>CSE202</td>
-		   <td></td>
-		   <td colspan="2"> INT320 <br/> <sub><pre>309A BLOCK-1                    AM</pre></sub> </td>
+		   <td colspan="2"> CSE305 <br/> <sub><pre>313A BLOCK-1          <a href="JS.jsp">JS</a></pre></</sub> </td>
+		   <td colspan="2"> </td>
+		   <td colspan="2" rowspan="2"> INT353 <br/> <sub><pre>211(B)-B1             <a href="AU.jsp">AU</a></pre></</sub> </td>
+		   <td colspan="2" rowspan="2"> CSP306 <br/> <sub><pre>211(C)-B1             <a href="JS.jsp">JS</a></pre></</sub> </td>
+		   <td colspan="2" rowspan="2"> CSP305 <br/> <sub><pre>211(B)-B1             <a href="SK.jsp">SK</a></pre></</sub> </td>
 		</tr>
         
 		<tr>
 		   <td>3:10-4:05</td>
-		   <td></td>
-		   <td>CSE310</td>
-		   <td colspan="2"> INT320 <br/> <sub><pre>309A BLOCK-1                    AM</pre></sub> </td>
-           <td> CSE320 <br/> <sub><pre>309A BLOCK-1      MCH</pre></sub> </td>
-		   <td colspan="2"> INT320 <br/> <sub><pre>309A BLOCK-1                    AM</pre></sub> </td>
+		   <td colspan="2"> HMM305 <br/> <sub><pre>313A BLOCK-1          <a href="SN.jsp">SN</a></pre></</sub> </td>
 		   <td colspan="2"></td>
 		</tr>
 		
 		
 	 </table>
 	</center> 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">   	   
+    
+    <footer>
+        
+        <div class="footer-top"> 
+           <div class="container">
+             <div class="col-lg-2 col-xs-12 text-center">
+                 <a href="https://www.facebook.com/aakash.tyagi.58367116"><i class="fa fa-facebook fa-2x"></i>Facebook</a>
+             </div>
+              <div class="col-lg-2 col-xs-12 text-center">
+                 <a href="#"><i class="fa fa-twitter fa-2x"></i>Twitter</a>
+             </div>
+              <div class="col-lg-2 col-xs-12 text-center">
+                 <a href="https://www.linkedin.com/in/aakash-tyagi-b15740136/"><i class="fa fa-linkedin fa-2x"></i>Linked In</a>
+             </div>
+             <div class="col-lg-2 col-xs-12 text-center">
+                 <a href="https://github.com/AakashOfficial"><i class="fa fa-github fa-2x"></i>Github</a>
+             </div> 
+              <div class="col-lg-2 col-xs-12 text-center">
+                 <a href="https://plus.google.com/u/0/114442680763328611868"><i class="fa fa-google-plus fa-2x"></i>Google</a>
+             </div>
+           </div> 
+        </div>  
+        
+        <div class="container" style="border-top:1px solid grey;">
+            <div class="row text-center">   
+                <div class="col-lg-6 col-lg-offset-3">
+                      <ul class="menu">
+                                 
+                             <li>
+                                <a href="Table.jsp">Home</a>
+                              </li>
+                                   
+                              <li>
+                                 <a href="AboutUs.jsp">About Us</a>
+                              </li>
+                                                                                                   
+                              <li>
+                                <a href="ContactUS.jsp">Contact</a>
+                             </li>
+                   
+                        </ul>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    
+    
+    <div class="copyright">
+     <div class="container">
+       
+         <div class="row text-center">
+         	<p>Copyright Tyagi and Sons 2017 All rights reserved</p>
+         </div>
+         
+ 	   </div>
+    </div>
+    
+	
+	
+		
+		
+<script type="text/javascript">
+
+</script>	
    </body>
  </html>
