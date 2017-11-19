@@ -107,60 +107,60 @@
 		
 		<tr>
 		   <td>8:45-9:40</td>
-		   <td colspan="2"> CSE320 <br/> <sub><pre>309A BLOCK-1         <a href="MCH.jsp">MCH</a></pre></sub> </td>
-		   <td colspan="2"> CSE320 <br/> <sub><pre>309A BLOCK-1         <a href="MCH.jsp">MCH</a></pre></sub> </td>
+		   <td colspan="2"><tooltip title="Software Engineering"> CSE320 </tooltip><br/> <sub><pre>309A BLOCK-1         <a href="Faculty.jsp">MCH</a></pre></sub> </td>
+		   <td colspan="2"><tooltip title="Software Engineering"> CSE320 </tooltip><br/> <sub><pre>309A BLOCK-1         <a href="Faculty.jsp">MCH</a></pre></sub> </td>
 		   <td>CMP002</td>
 		   <td>CSE331</td>
-		   <td colspan="2"> HMM305 <br/> <sub><pre>309A BLOCK-1          <a href="SN.jsp">SN</a></pre></sub> </td>
-		   <td colspan="2"> INT303 <br/> <sub><pre>309A BLOCK-1          <a href="NS.jsp">NS</a></pre></sub> </td>
+		   <td colspan="2"> <tooltip title="Management For Engineers">HMM305 </tooltip><br/> <sub><pre>309A BLOCK-1          <a href="Faculty.jsp">SN</a></pre></sub> </td>
+		   <td colspan="2"><tooltip title="Design and Analysis of Algorithm"> INT303 </tooltip><br/> <sub><pre>309A BLOCK-1          <a href="Faculty.jsp">NS</a></pre></sub> </td>
 		</tr>
 
 		<tr>
 		   <td>9:40-10:35</td>
-		   <td colspan="2"> CSE310 <br/> <sub><pre>309A BLOCK-1          <a href="AM.jsp">AM</a></pre></sub> </td>
-		   <td colspan="2"> CSE310 <br/> <sub><pre>309A BLOCK-1          <a href="AM.jsp">AM</a></pre></sub> </td>
-		   <td colspan="2"> CSE202 <br/> <sub><pre>309A BLOCK-1          <a href="DG.jsp">DG</a></pre></sub> </td>
-		   <td colspan="2"> CSE320 <br/> <sub><pre>309A BLOCK-1          <a href="MCH.jsp">MCH</a></pre></sub> </td>
+		   <td colspan="2"> <tooltip title="Web Development Technologies">CSE310</tooltip> <br/> <sub><pre>309A BLOCK-1          <a href="Faculty.jsp">AM</a></pre></sub> </td>
+		   <td colspan="2"> <tooltip title="Web Development Technologies">CSE310</tooltip> <br/> <sub><pre>309A BLOCK-1          <a href="Faculty.jsp">AM</a></pre></sub> </td>
+		   <td colspan="2"><tooltip title="Theory Of Automata"> CSE202 </tooltip><br/> <sub><pre>309A BLOCK-1          <a href="Faculty.jsp">DG</a></pre></sub> </td>
+		   <td colspan="2"><tooltip title="Software Engineering"> CSE320 </tooltip><br/> <sub><pre>309A BLOCK-1          <a href="Faculty.jsp">MCH</a></pre></sub> </td>
 		   <td>CMP002</td>
 		   <td>CSE331</td>
 		</tr>
 
 		<tr>
 		   <td>10:35-11:30</td>
-		   <td colspan="2"> INT303 <br/> <sub><pre>309A BLOCK-1          <a href="NS.jsp">NS</a></pre></sub> </td>
-		   <td colspan="2"> CSE202 <br/> <sub><pre>309A BLOCK-1          <a href="DG.jsp">DG</a></pre></sub> </td>
-		   <td colspan="2"> INT303 <br/> <sub><pre>309A BLOCK-1          <a href="NS.jsp">NS</a></pre></sub> </td>
-		   <td colspan="2"> CSE310 <br/> <sub><pre>309A BLOCK-1          <a href="AM.jsp">AM</a></pre></sub> </td>
-		   <td colspan="2"> HMM305 <br/> <sub><pre>309A BLOCK-1          <a href="SN.jsp">SN</a></pre></sub> </td>
+		   <td colspan="2"><tooltip title="Design and Analysis of Algorithm"> INT303 </tooltip><br/> <sub><pre>309A BLOCK-1          <a href="Faculty.jsp">NS</a></pre></sub> </td>
+		   <td colspan="2"><tooltip title="Theory Of Automata"> CSE202 </tooltip><br/> <sub><pre>309A BLOCK-1          <a href="Faculty.jsp">DG</a></pre></sub> </td>
+		   <td colspan="2"><tooltip title="Design and Analysis of Algorithm"> INT303 </tooltip><br/> <sub><pre>309A BLOCK-1          <a href="Faculty.jsp">NS</a></pre></sub> </td>
+		   <td colspan="2"> <tooltip title="Web Development Technologies">CSE310</tooltip> <br/> <sub><pre>309A BLOCK-1          <a href="Faculty.jsp">AM</a></pre></sub> </td>
+		   <td colspan="2"> <tooltip title="Management For Engineers">HMM305 </tooltip> <br/> <sub><pre>309A BLOCK-1          <a href="Faculty.jsp">SN</a></pre></sub> </td>
 		</tr>
 
 		<tr>
 		   <td>11:30-12:25</td>
 		   <td>CSP002</td>
 		   <td>CSE331</td>
-		   <td colspan="2">  LUNCH <br/> <sub><pre>LUNCH                   </pre></sub> </td>
-		   <td colspan="2"> INT320 <br/> <sub><pre>309A BLOCK-1          <a href="AM.jsp">AM</a></pre></sub> </td>
+		   <td colspan="2">  <tooltip title="Lunch">LUNCH</tooltip><br/> <sub><pre>LUNCH                   </pre></sub> </td>
+		   <td colspan="2"> <tooltip title="Enterprice Resource Planning">INT320</tooltip> <br/> <sub><pre>309A BLOCK-1          <a href="Faculty.jsp">AM</a></pre></sub> </td>
 		   <td>INT303</td>   
 		   <td>CSP381</td>
-		   <td colspan="2"> LUNCH <br/> <sub> <pre>LUNCH                    </pre></sub> </td>
+		   <td colspan="2"> <tooltip title="Lunch">LUNCH</tooltip> <br/> <sub> <pre>LUNCH                    </pre></sub> </td>
 		</tr>
 
 		<tr>
 		   <td>12:25-1:20</td>
 		   <td colspan="2"></td>
 		   <td rowspan="2">CSP310</td>
-           <td>CSE202</td>
-		   <td colspan="2">LUNCH <br/> <sub><pre>LUNCH                    </pre></sub> </td>
-		   <td colspan="2">LUNCH <br/> <sub><pre>LUNCH                    </pre></sub> </td>
-		   <td rowspan="2">INT353</td>
+           <td><tooltip title="Theory Of Automata"> CSE202 </tooltip></td>
+		   <td colspan="2"><tooltip title="Lunch">LUNCH</tooltip> <br/> <sub><pre>LUNCH                    </pre></sub> </td>
+		   <td colspan="2"><tooltip title="Lunch">LUNCH</tooltip> <br/> <sub><pre>LUNCH                    </pre></sub> </td>
+		   <td rowspan="2"><tooltip title="Design and Analysis of Algorithm Lab"> INT353 </tooltip></td>
 		   <td rowspan="2">CSP310</td>
 		</tr>
 		
 		<tr>
 		   <td>1:20-2:15</td>
-		   <td colspan="2"> CSE202 <br/> <sub><pre>309A BLOCK-1          <a href="DG.jsp">DG</a></pre></sub> </td>
-		   <td>CSE320</td>
-		   <td colspan="2"> HMM305 <br/> <sub><pre>309A BLOCK-1          <a href="SN.jsp">SN</a></pre></sub> </td>
+		   <td colspan="2"><tooltip title="Theory Of Automata"> CSE202 </tooltip><br/> <sub><pre>309A BLOCK-1          <a href="Faculty.jsp">DG</a></pre></sub> </td>
+		   <td><tooltip title="Software Engineering"> CSE320 </tooltip></td>
+		   <td colspan="2"> <tooltip title="Management For Engineers">HMM305 </tooltip> <br/> <sub><pre>309A BLOCK-1          <a href="Faculty.jsp">SN</a></pre></sub> </td>
 		   <td>CMP002</td>
 		   <td>CSE331</td>
 		</tr>
@@ -171,19 +171,19 @@
 		   <td>INT303</td>
 		   <td colspan="2"></td>
 		   <td>CSE310</td>
-		   <td rowspan="2">INT353</td>
-		   <td>CSE202</td>
+		   <td rowspan="2"><tooltip title="Design and Analysis of Algorithm Lab"> INT353 </tooltip></td>
+		   <td><tooltip title="Theory Of Automata"> CSE202 </tooltip></td>
 		   <td></td>
-		   <td colspan="2"> INT320 <br/> <sub><pre>309A BLOCK-1          <a href="AM.jsp">AM</a></pre></sub> </td>
+		   <td colspan="2"> <tooltip title="Enterprice Resource Planning">INT320</tooltip> <br/> <sub><pre>309A BLOCK-1          <a href="Faculty.jsp">AM</a></pre></sub> </td>
 		</tr>
         
 		<tr>
 		   <td>3:10-4:05</td>
 		   <td></td>
 		   <td>CSE310</td>
-		   <td colspan="2"> INT320 <br/> <sub><pre>309A BLOCK-1          <a href="AM.jsp">AM</a></pre></sub> </td>
-           <td> CSE320 <br/> <sub> </sub> </td>
-		   <td colspan="2"> INT320 <br/> <sub><pre>309A BLOCK-1          <a href="AM.jsp">AM</a></pre></sub> </td>
+		   <td colspan="2"> <tooltip title="Enterprice Resource Planning">INT320</tooltip> <br/> <sub><pre>309A BLOCK-1          <a href="Faculty.jsp">AM</a></pre></sub> </td>
+           <td> <tooltip title="Software Engineering"> CSE320 </tooltip> <br/> <sub> </sub> </td>
+		   <td colspan="2"> <tooltip title="Enterprice Resource Planning">INT320</tooltip> <br/> <sub><pre>309A BLOCK-1          <a href="Faculty.jsp">AM</a></pre></sub> </td>
 		   <td colspan="2"></td>
 		</tr>
 		

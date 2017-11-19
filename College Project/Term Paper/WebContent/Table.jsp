@@ -8,6 +8,7 @@
 	<!-- CSS Files -->
     <link href="table.css" rel="stylesheet">
 	<link href="Header.css" rel="stylesheet">
+	<link href="Faculty.css" rel="stylesheet" />
           
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -35,13 +36,13 @@
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="Table.jsp">Home</a></li>
-            <li><a href="#">News</a></li>
+            <li><a href="Faculty.jsp">Faculty</a></li>
 			<li><a href="CSE-A.jsp">CSE A</a></li>
             <li><a href="CSE-B.jsp">CSE B</a></li>
             <li><a href="CSE-C.jsp">CSE C</a></li>
             <li><a href="CSE-D.jsp">CSE D</a></li>
-			<li><a href="#">About</a></li>
-            <li><a href="#">Contact Us</a></li>
+			<li><a href="AboutUs.jsp">About</a></li>
+            <li><a href="ContactUs.jsp">Contact Us</a></li>
             <li>
               <a class="btn btn-default btn-outline btn-circle collapsed"  data-toggle="collapse" href="#nav-collapse1" aria-expanded="false" aria-controls="nav-collapse1">Menu</a>
             </li>
@@ -51,8 +52,8 @@
             <li><a href="CSE-B.jsp">CSE B</a></li>
             <li><a href="CSE-C.jsp">CSE C</a></li>
             <li><a href="CSE-D.jsp">CSE D</a></li>
-			<li><a href="#">About Us</a></li>
-            <li><a href="#">Like</a></li>
+			<li><a href="AboutUs.jsp">About Us</a></li>
+            <li><a href="Faculty.jsp">Faculty</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
@@ -208,6 +209,11 @@
          	<p>Copyright © 2017 All rights reserved</p>
          </div>
          
+         <div class="col-md-10 col-md-offset-1 text-center">
+            
+            <h6>Coded with <i class="fa fa-heart red"></i> by <a href="https://github.com/AakashOfficial/College-Work/tree/master/College%20Project" target="_blank">Aakash Tyagi</a></h6>
+        </div> 
+        
  	   </div>
     </div>
     
