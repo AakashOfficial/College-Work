@@ -85,26 +85,16 @@
 		
 		<tr>
 		   <td>1:20-2:15</td>
-		   <td colspan="2"> <tooltip title="Software Engineering"> CSE320 </tooltip> <br/> <sub><pre>313A BLOCK-1          <a href="Faculty.jsp">DP</a></pre></sub> </td>
 		   <td colspan="2"> </td>
-		   <td colspan="2"> </td>
-		   <td colspan="2"> <tooltip title="Management For Engineers">HMM305 </tooltip> <br/> <sub><pre>309A BLOCK-1          <a href="Faculty.jsp">SN</a></pre></sub> </td>
-		   <td colspan="2"> <tooltip title="Software Engineering"> CSE320 </tooltip> <br/> <sub><pre>313A BLOCK-1          <a href="Faculty.jsp">DP</a></pre></sub> </td>
-		</tr>
+		 </tr>
 		
 		<tr>
 		   <td>2:15-3:10</td>
-		   <td colspan="2"> <tooltip title="Business Intelligence">CSE305 </tooltip> <br/> <sub><pre>313A BLOCK-1          <a href="Faculty.jsp">JS</a></pre></</sub> </td>
-		   <td colspan="2"> </td>
 		   <td colspan="2" rowspan="2"> <tooltip title="Design and Analysis of Algorithm Lab"> INT353 </tooltip> <br/> <sub><pre>211(B)-B1             <a href="Faculty.jsp">AU</a></pre></</sub> </td>
-		   <td colspan="2" rowspan="2"> <tooltip title="Data Warehouse and Multidimensional Modelling Lab"> CSP306</tooltip> <br/> <sub><pre>211(C)-B1             <a href="Faculty.jsp">JS</a></pre></</sub> </td>
-		   <td colspan="2" rowspan="2"> <tooltip title="Business Intelligence Lab">CSP305 </tooltip> <br/> <sub><pre>211(B)-B1             <a href="Faculty.jsp">SK</a></pre></</sub> </td>
-		</tr>
+		 </tr>
         
 		<tr>
 		   <td>3:10-4:05</td>
-		   <td colspan="2"> <tooltip title="Management For Engineers">HMM305 </tooltip> <br/> <sub><pre>313A BLOCK-1          <a href="Faculty.jsp">SN</a></pre></</sub> </td>
-		   <td colspan="2"></td>
 		</tr>
 			
 	 </table>

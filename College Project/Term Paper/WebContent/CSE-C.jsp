@@ -40,7 +40,7 @@
 		   <td id="g2">G2</td>
 		   <td id="g1">G1</td>
 		   <td id="g2">G2</td>
-		   
+		</tr>   
 		<tr>
 		   <td>8:45-9:40</td>
 		   <td colspan="2"> <tooltip title="Web Development Technologies">CSE310</tooltip> <br/> <sub><pre>312 BLOCK-1           <a href="Faculty.jsp">SK</a></pre></sub> </td>
@@ -75,7 +75,7 @@
 
 		<tr>
 		   <td>11:30-12:25</td>
-		   <td>CMP002</td>
+		   <td><tooltip title="Introduction to Graph Theory and Its Applications"> CMP002 </tooltip></td>
 		   <td><tooltip title="Computer Based Optimization Technique">CSE331</tooltip></td>
 		   <td colspan="2"> LUNCH  <br/> <sub><pre>LUNCH                   </pre></sub> </td>
 		   <td colspan="2"> <tooltip title="Enterprice Resource Planning">INT320</tooltip> <br/> <sub><pre>309A BLOCK-1          <a href="Faculty.jsp">AM</a></pre></sub> </td>
