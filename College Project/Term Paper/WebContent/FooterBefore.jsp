@@ -35,7 +35,7 @@
                  <a href="https://plus.google.com/u/0/114442680763328611868"><i class="fa fa-google-plus fa-2x"></i>Google+</a>
              </div>
              <div class="col-lg-2 col-xs-12 text-center">
-                 <a href="Home.jsp"><i class="fa fa-home fa-2x"></i>Home</a>
+                 <a href="Table.jsp"><i class="fa fa-home fa-2x"></i>Home</a>
              </div>
            </div> 
         </div>  
@@ -50,15 +50,15 @@
                               </li>
                                    
                               <li>
-                                 <a href="Faculty.jsp">View Faculty</a>
+                                 <a href="Login.jsp">View Faculty</a>
                               </li>
                                                                                                    
                               <li>
-                                <a href="Register.jsp">Register Another User</a>
+                                <a href="Register.jsp">Register</a>
                              </li>
                               
                              <li>
-                             <a href="Table.jsp"><i class="fa fa-login fa-2x"></i>Log Out</a>
+                             <a href="Login.jsp"><i class="fa fa-login fa-2x"></i>Login</a>
                              </li>
                         </ul>
                 </div>

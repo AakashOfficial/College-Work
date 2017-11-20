@@ -25,7 +25,7 @@ public class RegisterUser  extends HttpServlet {
  MyData m = new MyData();
   String n;
   String p;
-  public void doGet(HttpServletRequest req,HttpServletResponse resp)throws ServletException,IOException {
+  public void doPost(HttpServletRequest req,HttpServletResponse resp)throws ServletException,IOException {
 	  resp.setContentType("text/html");
 	  PrintWriter out=resp.getWriter();
 	  m.setUsername(req.getParameter("username"));
@@ -33,7 +33,7 @@ public class RegisterUser  extends HttpServlet {
 	  
 	  MyDataDAO myDAO=new MyDataDAOImpl();
 	  boolean result=myDAO.addData(m);
-	  RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/Table.jsp");
+	  RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/Welcome.jsp");
       dispatcher.forward(req, resp);
 	  /*out.println("User Is Successfully Registered "+result);*/
 	  out.close();
