@@ -61,12 +61,12 @@
 					<h3 class="lead">
 						Section B
 					</h3>						
-					<a href="MondayA.jsp">Monday</a><br/>
-                    <a href="TuesdayA.jsp">Tuesday</a><br/>
-                    <a href="WednesdayA.jsp">Wednesday</a><br/>
-                    <a href="ThursdayA.jsp">Thursday</a><br/>
-                    <a href="FridayA.jsp">Friday</a>
-                    <br/><div><a href="CSE-A.jsp">View Full</a></div>
+					<a href="MondayB.jsp">Monday</a><br/>
+                    <a href="TuesdayB.jsp">Tuesday</a><br/>
+                    <a href="WednesdayB.jsp">Wednesday</a><br/>
+                    <a href="ThursdayB.jsp">Thursday</a><br/>
+                    <a href="FridayB.jsp">Friday</a>
+                    <br/><div><a href="CSE-B.jsp">View Full</a></div>
 				</div>
 			</div>
 		</div>
@@ -82,12 +82,12 @@
 					<h3 class="lead">
 						Section C
 					</h3>						
-					<a href="MondayA.jsp">Monday</a><br/>
-                    <a href="TuesdayA.jsp">Tuesday</a><br/>
-                    <a href="WednesdayA.jsp">Wednesday</a><br/>
-                    <a href="ThursdayA.jsp">Thursday</a><br/>
-                    <a href="FridayA.jsp">Friday</a>
-                    <br/><div><a href="CSE-A.jsp">View Full</a></div>
+					<a href="MondayC.jsp">Monday</a><br/>
+                    <a href="TuesdayC.jsp">Tuesday</a><br/>
+                    <a href="WednesdayC.jsp">Wednesday</a><br/>
+                    <a href="ThursdayC.jsp">Thursday</a><br/>
+                    <a href="FridayC.jsp">Friday</a>
+                    <br/><div><a href="CSE-C.jsp">View Full</a></div>
 				</div>
 			</div>
 		</div>
@@ -102,12 +102,12 @@
 					<h3 class="lead">
 						Section D
 					</h3>						
-					<a href="MondayA.jsp">Monday</a><br/>
-                    <a href="TuesdayA.jsp">Tuesday</a><br/>
-                    <a href="WednesdayA.jsp">Wednesday</a><br/>
-                    <a href="ThursdayA.jsp">Thursday</a><br/>
-                    <a href="FridayA.jsp">Friday</a>
-                    <div><a href="CSE-A.jsp">View Full</a></div>
+					<a href="MondayD.jsp">Monday</a><br/>
+                    <a href="TuesdayD.jsp">Tuesday</a><br/>
+                    <a href="WednesdayD.jsp">Wednesday</a><br/>
+                    <a href="ThursdayD.jsp">Thursday</a><br/>
+                    <a href="FridayD.jsp">Friday</a>
+                    <div><a href="CSE-D.jsp">View Full</a></div>
 				</div>
 			</div>
 		</div>	

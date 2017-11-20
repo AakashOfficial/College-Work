@@ -69,7 +69,7 @@
 <br/>
 <!-- Cruosel Start Here -->
 
-<%@include file="Cruosel.jsp" %>
+<%@include file="CruoselU.jsp" %>
 
 <!-- Cruosel Ends Here -->
       
