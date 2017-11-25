@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Slidy Panel Footer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        .panel-default{
+    text-align:center;
+    cursor:pointer;
+    font-family: 'Raleway',sans-serif;
+}
+.panel-default > .panel-footer {
+    color: #fff;
+    background-color: #47c8ed;    
+    display:none;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+}
+.panel-default i{
+    font-size: 5em;
+    }
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-md-2 col-sm-6 col-xs-6">
+            <div class="panel panel-default">
+                <div class="panel-body">                    
+                    <h2>Hover me</h2>
+                    <p>I will show the footer panel</p>
+                </div>
+                <div class="panel-footer">Panel footer</div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-6 col-xs-6">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h2>Hover me</h2>
+                    <p>I will show the footer panel with a Badge</p>
+                </div>
+                <div class="panel-footer"><a href="#"><span class="badge">42</span></a></div>
+            </div>
+        </div>
+	</div>
+</div>
+<script type="text/javascript">
+$(function(){
+$('.panel').hover(function(){
+        $(this).find('.panel-footer').slideDown(250);
+    },function(){
+        $(this).find('.panel-footer').slideUp(250); //.fadeOut(205)
+    });
+})
+
+</script>
+</body>
+</html>
