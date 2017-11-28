@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Simple Bootstrap</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        #container
+{
+    margin: 0 auto;
+	/* width: 600px; */
+	background:#fff;
+}
+
+#header
+{
+	background:#ccc;
+	padding: 20px;
+}
+
+#header h1 { margin: 0; }
+
+#img 
+{
+    padding:30px
+}
+
+#content
+{
+	clear: left;
+	padding: 20px;
+}
+
+#content h2
+{
+	color:#000;
+	font-size: 160%;
+	margin: 0 0 .5em;
+}
+
+#footer
+{
+	background:#ccc;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+}
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+		<h1>
+			Simple Bootsnipp
+		</h1>
+	</div>
+	<div id="content">
+    
+    <p class="testp btn btn-info pull-right"></p>
+<p>
+    <a href="#" target="_blank">View Full Screen</a>
+</p>
+    
+		<h2>
+			Instructions
+		</h2>
+		<p>
+			Create a simple bootsnip with <b>one column</b>. 
+		</p>
+        
+        <p>
+            Place a <i>very large image</i> in it, use the responsive class
+        </p>
+        
+<div class="visible-lg">
+    <img src="http://fc01.deviantart.net/fs70/f/2015/041/2/6/pcbig_by_uniquelymaud-d8hhis7.png" alt="" class="img-responsive img-rounded center-block">
+</div>
+
+<div class="visible-md">
+    <img src="http://fc02.deviantart.net/fs70/f/2015/041/a/f/pcnorm_by_uniquelymaud-d8hhirw.png" alt="" class="img-responsive img-rounded center-block">
+</div>
+
+<div class="visible-sm">
+    <img src="http://fc03.deviantart.net/fs71/f/2015/041/7/2/pcsmall_by_uniquelymaud-d8hhirl.png" alt="" class="img-responsive img-rounded center-block">
+</div>
+
+<div class="visible-xs">
+    <img src="http://fc03.deviantart.net/fs70/f/2015/041/4/3/pctiny_by_uniquelymaud-d8hhiri.png" alt="" class="img-responsive img-rounded center-block">
+</div>
+        
+        <small>Image: <a href="http://powerscourt.com/media/main-view-c2.jpg" target="_blank">Powerscourt Gardens</a><br>
+	
+</div>
+	<div id="footer">
+        <div align="center">
+		    Copyright © Tyagi Sins, 2014
+	    </div>
+    </div>
+</div>
+<script type="text/javascript">
+
+$(window).ready(function() {
+    var wi = $(window).width();  
+    $("p.testp").text('Initial screen width is: ' + wi + 'px.');
+ 
+    $(window).resize(function() {
+        var wi = $(window).width();
+            $("p.testp").text('Width is currently: ' + wi + 'px.');
+    });            
+});
+</script>
+</body>
+</html>
