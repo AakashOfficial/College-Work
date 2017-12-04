@@ -1,0 +1,38 @@
+<html>
+<head>
+<script src="jquery-3.2.1.js"></script> 
+</head>
+<body>
+<h2>JQuery method</h2>
+<p>demonstrate jquery method</p>
+<p>paragraph will dissappear when click on the button</p>
+<button id=try>hide</button>
+<button id=try1>show</button>
+<div id="hello" style="background-color:blue;color:white;height:100px;width:100px;"></div><br>
+
+<div id="hello1" style="background-color:green;color:white;height:100px;width:100px;"></div></br>
+
+<div id="hello2" style="background-color:cyan;color:white;height:100px;width:100px;"></div></br>
+
+
+<script>
+$(function()
+{
+
+$("#try").click(function()
+{
+$('#hello').hide();
+$('#hello1').hide('slow');
+$('#hello2').hide('4000');
+});
+
+$("#try1").click(function()
+{
+$('#hello').show();
+$('#hello1').show('4000');
+$('#hello2').show('fast');
+});
+
+});
+</script></body>
+</html>
