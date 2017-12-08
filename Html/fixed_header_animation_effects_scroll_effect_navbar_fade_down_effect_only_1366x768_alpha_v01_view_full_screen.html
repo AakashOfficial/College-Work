@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Fixed Header + Animation effects + Scroll effect + Navbar fade down effect</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+  height:100%;
+  width:100%;
+}
+
+header {
+  background-image:url('http://www.dizedesign.de/snippets/header-pack-v.1.0/header-test.jpg');
+  height:790px;
+  background-size:cover;
+  /*background-attachment:fixed;*/
+  background-position:center center;
+  background-repeat:no-repeat;
+}
+
+header .row {
+  margin-top:255px;
+}
+
+header h1 {
+  text-align:center;
+  color:#eee;
+  text-shadow:1px 1px 1px #333;
+  font-weight:600;
+  text-transform:uppercase;
+  font-family:'Pacifico';
+  letter-spacing:13px;
+}
+
+header p {
+  text-align:center;
+  color:#eee;
+  text-shadow:1px 1px 1px #333;
+  font-size:17px;
+  letter-spacing:2px;
+  padding-top:15px;
+}
+
+#go {
+  padding-top:20px;
+  background-image:url('http://dizedesign.de/snippets/header-pack-v.1.0/header-180.jpg');
+  height:750px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+#go .row {
+  padding-top:45%;
+}
+
+#go h1 {
+  text-align:center;
+  color:#eee;
+  text-shadow:1px 1px 1px #333;
+  font-weight:600;
+  text-transform:uppercase;
+  font-family:'Pacifico';
+  letter-spacing:13px;
+}
+
+#go p {
+  text-align:center;
+  color:#eee;
+  text-shadow:1px 1px 1px #333;
+  font-size:17px;
+  letter-spacing:2px;
+  padding-top:15px;
+}
+
+/* NAVBAR */ 
+.navbar-default {
+  background-image:none;
+  background-image:none;
+  background-image:none;
+  background-image:none;
+  filter:none;
+  filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  background-repeat:repeat-x;
+  border-radius:0px;
+  -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.075);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.075);
+  background-color:transparent;
+}
+
+.navbar-default .navbar-link:hover {
+  color:#eee;
+}
+
+.navbar-default .navbar-link {
+  color:#fff;
+  letter-spacing:3px;
+  text-shadow:0px 0px 10px #000;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  color:#eee;
+  background-color:transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color:#fff;
+  letter-spacing:3px;
+  text-shadow:0px 0px 10px #000;
+}
+
+/* Scroll Down */
+#section05 a {
+  padding-top:70px;
+}
+
+#section05 a span {
+  position:absolute;
+  top:0;
+  left:50%;
+  width:24px;
+  height:24px;
+  margin-left:-12px;
+  border-left:1px solid #fff;
+  border-bottom:1px solid #fff;
+  -webkit-transform:rotate(-45deg);
+  transform:rotate(-45deg);
+  -webkit-animation:sdb05 1.5s infinite;
+  animation:sdb05 1.5s infinite;
+  box-sizing:border-box;
+}
+
+@keyframes sdb05 {
+  0% {
+    transform:rotate(-45deg) translate(0, 0);
+    opacity:0;
+  }
+  50% {
+    opacity:1;
+  }
+  100% {
+    transform:rotate(-45deg) translate(-20px, 20px);
+    opacity:0;
+  }
+}
+
+.demo a {
+  bottom:20px;
+  z-index:4444;
+  display:inline-block;
+  -webkit-transform:translate(0, -50%);
+  transform:translate(0, -50%);
+  color:#fff;
+  font:normal 400 17px/1 'Josefin Sans', sans-serif;
+  letter-spacing:.1em;
+  text-decoration:none;
+  transition:opacity .3s;
+}
+
+.demo a:hover {
+  opacity:.5;
+}
+
+.arrow {
+  margin-top:155px;
+}
+
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Header + Animation Effekts + Scroll Effekts + Navbar Fade-Down Effekt</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+</head>
+
+<body id="page-top">
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header"><a class="navbar-brand navbar-link" href="http://www.dizedesign.de/" target="_blank">Dize Design</a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li role="presentation"><a href="#" class="scroll-link" data-id="page-top">Back to Top</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>sky climber's </h1>
+                    <p>Climb up with us. </p>
+                </div>
+                <div class="col-md-12">
+                    
+                    <section id="section05" class="demo arrow"><center>
+                    <h1></h1><a href="#" class="scroll-link" data-id="go"><span></span>Scroll Down</a></center></section>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="go">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>or make youre way</h1>
+                    <p>Be Creative</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+<script type="text/javascript">
+/* Fade */
+(function ($) {
+  $(document).ready(function(){
+
+    // hide .navbar first
+    $(".navbar").hide();
+
+    // fade in .navbar
+    $(function () {
+        $(window).scroll(function () {
+
+                 // set distance user needs to scroll before we start fadeIn
+            if ($(this).scrollTop() > 200) {
+                $('.navbar').fadeIn();
+            } else {
+                $('.navbar').fadeOut();
+            }
+        });
+    });
+
+});
+  }(jQuery));
+  
+  /* One-Page Scrolling */
+  $(document).ready(function() {
+	// navigation click actions	
+	$('.scroll-link').on('click', function(event){
+		event.preventDefault();
+		var sectionID = $(this).attr("data-id");
+		scrollToID('#' + sectionID, 1250);
+	});
+	// scroll to top action
+	$('.scroll-top').on('click', function(event) {
+		event.preventDefault();
+		$('html, body').animate({scrollTop:0}, 'slow'); 		
+	});
+	// mobile nav toggle
+	$('#nav-toggle').on('click', function (event) {
+		event.preventDefault();
+		$('#main-nav').toggleClass("open");
+	});
+});
+// scroll function
+function scrollToID(id, speed){
+	var offSet = 0;
+	var targetOffset = $(id).offset().top - offSet;
+	var mainNav = $('#main-nav');
+	$('html,body').animate({scrollTop:targetOffset}, speed);
+	if (mainNav.hasClass("open")) {
+		mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+		mainNav.removeClass("open");
+	}
+}
+if (typeof console === "undefined") {
+    console = {
+        log: function() { }
+    };
+}
+
+/* Scroll Down */
+$(function() {
+	$('a[href*=#]').on('click', function(e) {
+		e.preventDefault();
+		$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+	});
+});
+</script>
+</body>
+</html>
