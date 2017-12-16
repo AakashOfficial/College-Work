@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+   
+    <title>Tree Menu</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+    <style type="text/css">
+        
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+        <div class="well" style="width:300px; padding: 8px 0;">
+            <div style="overflow-y: scroll; overflow-x: hidden; height: 500px;">
+                <ul class="nav nav-list">
+                    <li><label class="tree-toggler nav-header">WorkLoad</label>
+                        <ul class="nav nav-list tree">
+                            <li><a href="#">DME Report</a></li>
+                            <li><a href="#">CAMB Report</a></li>
+                            <li><a href="#">LMAB Report</a></li>
+                            <li><a href="#">DMF Notification</a></li>
+                            <li><a href="#">LME Forecast Report</a></li>
+                        </ul>
+                    </li>
+                    <li class="divider"></li>
+                    <li><label class="tree-toggler nav-header">Performance</label>
+                        <ul class="nav nav-list tree">
+                            <li><a href="#">Calendar</a></li>
+                            <li><a href="#">Efficiency</a></li>
+                            <li><a href="#">Process Age</a></li>
+                            <li><a href="#">DME Audit</a></li>
+                            <li><a href="#">Condition Detected At DME</a></li>
+                        </ul>
+                    </li>
+                    <li class="divider"></li>
+                    <li><label class="tree-toggler nav-header">Customers</label>
+                        <ul class="nav nav-list tree">
+                            <li><a href="#">Demography</a></li>
+                            <li><a href="#">Feedback</a></li>
+                        </ul>
+                    </li>
+                    <li class="divider"></li>
+                    <li><label class="tree-toggler nav-header">Licensing</label>
+                        <ul class="nav nav-list tree">
+                            <li><a href="#">Assessment Status</a></li>
+                        </ul>
+                    </li>
+                    <li class="divider"></li>
+                    <li><label class="tree-toggler nav-header">Medical Stats</label>
+                        <ul class="nav nav-list tree">
+                            <li><a href="#">Diagnosis Report</a></li>
+                            <li><a href="#">Measurement and Investigation Report</a></li>
+                            <li><a href="#">Health Risk Report</a></li>
+                        </ul>
+                    </li>
+                    <li class="divider"></li>
+                    <li><label class="tree-toggler nav-header">Admin</label>
+                        <ul class="nav nav-list tree">
+                            <li><a href="#">Revenue Report</a></li>
+                            <li><a href="#">Applicant Activity Report</a></li>
+                            <li><a href="#">Login Activity Report</a></li>
+                        </ul>
+                    </li>
+            </div>
+        </div>
+	</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('label.tree-toggler').click(function () {
+        $(this).parent().children('ul.tree').toggle(300);
+    });
+});
+</script>
+</body>
+</html>
