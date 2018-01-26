@@ -7,6 +7,7 @@ package com.tyagi.ModThreeDFA;
 import java.util.Scanner;
 
 /* for implement all methods declared in this package  by import and creating object */
+/* Method Interface Implementationss */
 import com.tyagi.DFA.methods.DFAMethod;
 
 /* Method Interface */
@@ -175,4 +176,5 @@ public class ModThreeDFA implements Method extends DFAMethod{
 			System.out.println("Exit");
 		}
 	}
+                  /* Use DFAMethod Class and Method interface from import com.tyagi.DFA.methods.*; */
 }
