@@ -26,7 +26,6 @@ public class EvenZero {
 		// TODO Auto-generated method stub
 
 		int Check = 0;
-		
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter The Size Of String");
 	    int size= s.nextInt();/*Integer.parseInt(args[0]);*/          
@@ -46,8 +45,6 @@ public class EvenZero {
 	          {
 	        	Check++;
 	        	/*return arg[i+1];*/
-	        	
-	            
 	          }
 	         /*else
 	           {
@@ -56,7 +53,6 @@ public class EvenZero {
 	       }
 	    if(Check%2==0){
 	    	System.out.println("The String Is Accepted and The Accepted String Is");
-	    
 	     for(int i=0;i<size;i++)
 	      {
 	       System.out.println("arg["+i+"]:"+arg[i]);
@@ -66,5 +62,4 @@ public class EvenZero {
 	    	System.out.println("String Is Not Accepted");;
 	    }
 	}
-
 }
