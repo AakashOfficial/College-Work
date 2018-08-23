@@ -1768,30 +1768,37 @@ span.border.two:after {
 		padding: 0;
 	}
 }
+
 @media(max-width:414px){
+	
 	span.menu img {
 		width: 91%;
 		margin-top: 8px;
 	}
+	
 	.thumb:hover ul li {
 		margin: 99px 0px 0;
 	}
+	
 	ul.social-icons.two {
 		display: block;
 		padding: 0;
 		margin: 1em 0;
 		background: none;
 	}
+	
 	.wthree_about_right_grid {
 		text-align: center;
 		width: 100%;
 	}
+	
 	.wthree_about_right_grid_left {
 		padding: 0;
 		float: none;
 		text-align: center;
 		    width: 100%;
 	}
+	
 	.wthree_about_right_grid_right {
 		padding-right: 0;
 		float: none;
