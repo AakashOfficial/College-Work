@@ -31,9 +31,7 @@ public class ModThreeDFA implements Method extends DFAMethod{
 		 * Scanner class object is creation for Input from user for Input
 		 * (System.in)
 		 */
-                            
-  
-
+                     
 		System.out.println("Scanner class object Creation");
 		Scanner s = new Scanner(System.in);
 		System.out.println("Scanner class Object is created");
@@ -141,7 +139,6 @@ public class ModThreeDFA implements Method extends DFAMethod{
 					System.out.print("-->x-->x");
 					break;
 				}
-
 			}
 
 			DFAMethod dfamethod = new DFAMethod();
