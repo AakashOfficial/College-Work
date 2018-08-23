@@ -13,7 +13,6 @@ public class OddOne {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 int Check = 0;
 		
