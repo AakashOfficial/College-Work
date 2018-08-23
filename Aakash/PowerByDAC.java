@@ -28,6 +28,4 @@ public class PowerByDAC
     System.out.println(n+"^"+p+"="+result);
 	
   }
- }
- 
-  
+}
