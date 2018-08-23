@@ -22,12 +22,11 @@ public class EvenZero {
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		int Check = 0;
-		Scanner s=new Scanner(System.in);
-		System.out.println("Enter The Size Of String");
+	public static void main(String[] args)
+	{
+	    int Check = 0;
+	    Scanner s=new Scanner(System.in);
+	    System.out.println("Enter The Size Of String");
 	    int size= s.nextInt();/*Integer.parseInt(args[0]);*/          
 	    int arg[]=new int[size];
 	    
