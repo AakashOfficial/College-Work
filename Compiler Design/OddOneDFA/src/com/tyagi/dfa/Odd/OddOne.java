@@ -36,8 +36,6 @@ int Check = 0;
 	          {
 	        	Check++;
 	        	/*return arg[i+1];*/
-	        	
-	            
 	          }
 	         /*else
 	           {
