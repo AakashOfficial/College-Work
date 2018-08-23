@@ -15,10 +15,6 @@ import com.tyagi.DFA.methods.Method;
  */
 public class ModThreeDFA implements Method extends DFAMethod{
 
-	public ModThreeDFA() {
-		// TODO Auto-generated constructor stub
-	}
-
 	public static void main(String[] tyagi) {
 		
 		String state = "i";
