@@ -19,9 +19,6 @@ public class ModThreeDFA implements Method extends DFAMethod{
 		// TODO Auto-generated constructor stub
 	}
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] tyagi) {
 		
 		String state = "i";
