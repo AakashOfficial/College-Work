@@ -169,10 +169,6 @@ ul.dropdown-menu li:after {
 }
 /*-- //top-nav --*/
 
-
-
-
-
 /*  Slider Css */
 body
 {
@@ -194,9 +190,6 @@ body
 .nav-pills>li[data-slide-to="1"].active a { background-color: #e67e22; }
 .nav-pills>li[data-slide-to="2"].active a { background-color: #2980b9; }
 .nav-pills>li[data-slide-to="3"].active a { background-color: #8e44ad; }
-
-
-
 
 /*  For Footer */
 
