@@ -534,27 +534,4 @@ span.border.one:after {
     background: #f4f4f4;
 }
 
-.about-left-grid ul li a {
-       padding: 0.6em 2em;
-    font-size: 1.2em;
-    color: #00a78e;
-    border: 2px solid #00a78e;
-    text-decoration: none;
-    border-radius: 1.5em;
-    -webkit-border-radius: 1.5em;
-    -moz-border-radius: 1.5em;
-    -o-border-radius: 1.5em;
-    -ms-border-radius: 1.5em;
-}
-
-.about-left-grid ul li a:hover{
-	background:#00a78e;
-	color:#FFF;
-	border-radius:1.5em;
-	-webkit-border-radius:1.5em;
-	-moz-border-radius:1.5em;
-	-o-border-radius:1.5em;
-	-ms-border-radius:1.5em;
-}
-
 
