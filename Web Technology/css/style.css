@@ -579,26 +579,3 @@ span.border.one:after {
     padding: 0 0 0.2em 0;
 }
 
-.service-head h3 span{
-	font-weight:700;
- font-family: 'Asap', sans-serif;
-}
-
-.wthree_about_left,.wthree_about_right{
-	padding:0;
-}
-
-.wthree_about_right{
-	background:#f5f5f5;
-	padding:3.27em 8em;
-}
-
-.wthree_about_right h3{
-	text-align:left;
-}
-
-.wthree_about_right h3 span:before,.wthree_about_right h3 span:after{
-	content: '';
-    position: absolute;
-    bottom: 0%;
-}
