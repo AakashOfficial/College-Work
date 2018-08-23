@@ -1161,54 +1161,66 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
     padding:5em 0 0 0;
 	    background: #f4f4f4;
 }
+
 /*-- //portfolio --*/
 /*-- contact --*/
 .mail_us{
 	    margin-bottom: 50px;
     margin-top: 50px;
 }
+
 .contact-grid1-left {
     width: 100%;
 }
+
 .contact-grid1-left1 {
     padding: 2em;
     border-bottom: 1px ridge rgb(214, 212, 212);
     background:#fff;
     text-align: center;
 }
+
 .contact-grid1-left1 span {
     font-size: 1.5em;
       color: #00a78e;
 }
+
 .contact-grid1-left1 ul{
 	padding:0;
 }
+
 .contact-grid1-left1 ul li {
     list-style-type: none;
     margin-bottom: 1em;
     font-size: 14px;
     color: #999;
 }
+
 .contact-grid1-left1 a:hover {
     color: #999;
 }
+
 .contact-grid1-left1 a {
       font-size: 14px;
     color: #00a78e;
     text-decoration: none;
 }
+
 ul.social-icons.two {
     display: block;
     padding: 0;
     margin: 2em 0;
     background: none;
 }
+
 .navbar-default .navbar-nav > li > a.active {
     color: #F2593A !important;
 }
+
 .mail_left img{
 	width:100%;
 }
+
 .mail_right input[type="text"], .mail_right input[type="email"], .mail_right textarea {
        background: none;
     width: 100%;
@@ -1218,10 +1230,12 @@ ul.social-icons.two {
     outline: none;
     border: 2px solid #00a78e;
 }
+
 .mail_right textarea {
 	height:200px; 
 	resize:none;	
 }
+
 .mail_right input[type="submit"] {
         border: none;
     outline: none;
@@ -1230,24 +1244,28 @@ ul.social-icons.two {
     font-size: 16px;
     padding: 13px 40px;
 }
+
 .mail_right input[type="submit"]:hover{
- background: #00a78e;
-	    transition: 0.5s all ease;
+    background: #00a78e;
+    transition: 0.5s all ease;
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
     -o-transition: 0.5s all ease;
     -ms-transition: 0.5s all ease;
 	color:#fff;
 }
+
 .contact iframe{
 	width:100%;
 	height:400px;
 	outline:none;
 }
+
 .mail_right {
     background: #FDFFFE;
     padding: 2em;
 }
+
 span.border.two {
     width: 18%;
     background: #fff;
@@ -1257,6 +1275,7 @@ span.border.two {
     position: relative;
     margin: 23px auto 0px;
 }
+
 span.border.two:after {
     content: ' ';
     position: absolute;
