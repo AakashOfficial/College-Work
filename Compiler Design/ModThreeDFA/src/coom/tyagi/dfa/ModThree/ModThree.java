@@ -1,6 +1,3 @@
-/**
- * 
- */
 package coom.tyagi.dfa.ModThree;
 
 import java.util.Scanner;
