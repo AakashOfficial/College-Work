@@ -1,7 +1,6 @@
 import java.util.Scanner;
 class MergeSortInputByUser
 {
-
     void merge(int arr[], int l, int m, int r)
     {
         // Find sizes of two subarrays to be merged
@@ -18,9 +17,7 @@ class MergeSortInputByUser
         for (int j=0; j<n2; ++j)
             R[j] = arr[m + 1+ j];
  
- 
         /* Merge the temp arrays */
- 
         // Initial indexes of first and second subarrays
         int i = 0, j = 0;
  
@@ -97,7 +94,7 @@ class MergeSortInputByUser
           System.out.println("Enter element :"+i);
           arr[i]=s.nextInt();
          }
-		 System.out.println("Given Array");
+        System.out.println("Given Array");
         printArray(arr);
  
         MergeSortInputByUser ob = new MergeSortInputByUser();
