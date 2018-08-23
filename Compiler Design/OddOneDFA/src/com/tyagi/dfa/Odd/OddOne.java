@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.tyagi.dfa.Odd;
 
 import java.util.Scanner;
