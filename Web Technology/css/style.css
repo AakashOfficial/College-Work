@@ -546,6 +546,7 @@ span.border.one:after {
     -o-border-radius: 1.5em;
     -ms-border-radius: 1.5em;
 }
+
 .about-left-grid ul li a:hover{
 	background:#00a78e;
 	color:#FFF;
@@ -1718,6 +1719,7 @@ span.border.two:after {
 	}
 }
 @media(max-width:600px){
+	
 	.modal-dialog.about {
 		width: 518px;
 		margin: 2em auto 0;
@@ -1725,6 +1727,7 @@ span.border.two:after {
 	.portfolio-grids {
 		margin-top: 1.5em;
 	}
+	
 	.about-left-grid {
 		width: 80%;
 		float: none;
@@ -1733,23 +1736,30 @@ span.border.two:after {
 		margin-left: 7em;
 	}
 }
+
 @media(max-width:480px){
+	
 	.wthree_about_right_grids {
 		margin-top:1.5em;
 	}
+	
 	h4.timeline-title {
-      font-size: 1em;
+                font-size: 1em;
 	}
+	
 	#work, .blog, #services {
 		padding: 2em 0;
 	}
+	
 	.service-head h3 {
 		font-size: 1.3em;
 	}
+	
 	.service-head h4 {
 		font-size: 0.9em;
 		padding: .5em 1.2em
 	}
+	
 	span.border {
 		    width: 40%;
 		background: #8C8989;
@@ -1757,21 +1767,26 @@ span.border.two:after {
 		display: block;
 		margin: 11px auto 0px;
 	}
+	
 	span.border.two {
 		width: 39%;
 	}
+	
 	.time-main {
 		margin-top: 1.5em;
 	}
+	
 	.mail_right {
 		padding: 1em;
 		margin-top: 1em;
 	}
+	
 	.resp-tab-item {
 		margin: 0 0 5px 0px;
 		padding: 6px 11px;
 		font-size: 14px;
 	}
+	
 	.thumb .team_pos {
 		bottom: -83px;
 		left: 0;
