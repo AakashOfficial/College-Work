@@ -784,3 +784,107 @@ ul.year li:nth-child(5){
 .timeline-badge.success i {
     font-size: 0.9em;
 }
+
+.time-main {
+    margin-top: 3em;
+}
+/*--//work--*/
+/*-- portfolio --*/
+.portfolio-head h2{
+	color: #202020;
+	font-size: 1.8em;
+	font-family: 'Asap', sans-serif;
+	margin:0;
+	padding:0;
+}
+.portfolio-head h2 span{
+	font-weight:700;
+	color:#2ec06c;
+}
+.portfolio-head p:nth-child(2){
+	font-size:1.1em;
+	line-height:1.8em;
+	color:#666666;
+	width:80%;
+	margin:1em auto 0 auto;
+}
+.portfolio-grid{
+	margin-bottom:1.8em;
+}
+.portfolio-grid-pic{
+	position:relative;
+}
+.portfolio-grid-pic img{
+	width:100%;
+}
+.portfolio-grid-pic-caption{
+	position:absolute;
+	background:rgba(70, 194, 122, 0.82);
+	top:0px;
+	bottom:0;
+	text-align:center;
+	width:100%;
+	display:none;
+}
+.portfolio-grid-pic-caption a{
+	color:#FFF;
+	text-align:center;
+	border:1px solid #FFF;
+	font-size:1em;
+	padding:0.7em 1.8em;
+	display:inline-block;
+	text-decoration:none;
+	border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-ms-border-radius: 0.3em;
+	margin-top:8em;
+	font-family: 'Asap', sans-serif;
+}
+.portfolio-grid-pic-caption a:hover{
+	border-color:#202020;
+	color:#202020;
+}
+.portfolio-grid:hover div.portfolio-grid-pic-caption{
+	display:block;
+}
+.portfolio-grid-info h5{
+	color: #202020;
+	font-size: 1.4em;
+	font-family: 'Asap', sans-serif;
+	padding: 0.875em 0;
+	margin: 0;
+}
+.portfolio-grid-info{
+	background:#eeeeee;
+	border-bottom-left-radius: 0.8em;
+	border-bottom-right-radius: 0.8em;
+}
+.portfolio-grids{
+	margin-top:3em;
+}
+.portfolio{
+	padding:3.5em 0;
+}
+/*-- feedback --*/
+.feedback{
+	background: url(../images/feedback-bg.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	min-height: 300px;
+	padding: 6em 0 0 0;
+}
+.feedback-grid p{
+	color: #FFf;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	width: 90%;
+	margin: 0 auto;
+}
+.feedback-grid h4{
+	color:#2ec06c;
+	font-weight:700;
+	font-family: 'Asap', sans-serif;
+	font-size:1.3em;
+	margin:1em 0 0 0;
+}
