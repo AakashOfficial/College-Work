@@ -163,6 +163,7 @@ ul.address {
     position: relative;
 	    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
 .header-right h1:before {
        width: 0;
     height: 0;
@@ -174,6 +175,7 @@ ul.address {
     border-width: 14px 11px 0 12px;
     border-color: #00a78e transparent transparent transparent;
 }
+
 .service-head h4 {
     font-size: 1.2em;
     color: #FFF;
@@ -183,6 +185,7 @@ ul.address {
     position: relative;
 	    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
 .service-head h4:before {
     width: 0;
     height: 0;
@@ -195,6 +198,7 @@ ul.address {
     border-color: #00a78e transparent transparent transparent;
 	
 }
+
 .header-right h6 {
        font-size: 1em;
     color: #C7C7C7;
@@ -202,14 +206,17 @@ ul.address {
     letter-spacing: 3px;
     text-transform: uppercase;
 }
+
 ul.address {
     margin-top: 2em;
     border-top: 1px solid #AFAFAF;
     padding-top: 0.5em;
 }
+
 ul.address li {
     display: block;
 }
+
 ul.address li ul.address-text li {
     display: inline-block;
     font-size: 1em;
@@ -217,19 +224,24 @@ ul.address li ul.address-text li {
     margin-top: 1em;
 	font-weight: 400;
 }
+
 ul.address li ul.address-text li:nth-child(1){
 	width: 20%;
 }
+
 ul.address li ul.address-text li a {
     color: #fff;
 	text-decoration:none;
 }
+
 ul.address li ul.address-text li a:hover{
         color: #00a78e;
 }
+
 ul.address-text b {
     color:#fff;
 }
+
 /*--social-icons--*/
 ul.social-icons{
 	    display: block;
@@ -239,10 +251,12 @@ ul.social-icons{
     text-align: center;
 	margin:0;
 }
+
 .social-icons li {
     display: inline-block;
     margin-right: 1%;
 }
+
 .social-icons li a{  
     background: url(../images/social-icons2.png) no-repeat 3px 3px;
     display: block;
