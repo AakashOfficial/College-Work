@@ -4,8 +4,7 @@ import java.util.Scanner;
 class PowerREC
 {
  public static void main(String args[]) 
- {
-	 
+ {	 
  /* BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
  PowerREC powerREC = new PowerREC();
  System.out.print("Enter number : ");
@@ -23,7 +22,7 @@ class PowerREC
  
  System.out.println("\nEnter Number Whose Power To Be Calculated");
  int x=s.nextInt();
- 
+	 
  System.out.println("\nEnter The Power Of The Number");
  int y=s.nextInt();
  
