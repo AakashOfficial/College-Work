@@ -367,16 +367,20 @@ ul.news li {
     display: inline-block;
        margin-right: 1em;
 }
+
 ul.news li i {
     margin-right: 4px;
 }
+
 ul.news li a{
     font-size: 0.9em;
     color: #777;
 }
+
 ul.news li i{
 	color:#333;
 }
+
 a.read {
     padding: 0.5em 1.5em;
     font-size: 1em;
@@ -389,16 +393,20 @@ a.read {
     -o-border-radius: 1.5em;
     -ms-border-radius: 1.5em;
 }
+
 a.read:hover {
 	background:#00a78e;
 	color:#fff;
 }
+
 ul.news {
     padding: 0;
 }
+
 .news-grid {
     margin: 2em 0;
 }
+
 .news-grid:hover{
 		transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -410,14 +418,17 @@ ul.news {
    -moz-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
    -o-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
 .blog {
     padding:5em 0;
 }
+
 .about-inner p {
     color: #777;
     line-height: 1.8em;
     font-size:0.9em;
 }
+
 h4.tittle  {
     color: #00a78e;
     text-decoration: none;
@@ -426,19 +437,23 @@ h4.tittle  {
     text-transform: uppercase;
     font-weight: bold;
 }
+
 .modal-dialog.about {
     width: 757px;
     margin:3.5em auto 0;
 }
+
 .modal-content.about {
     background-color: #fff;
     border-radius: 0px!important;
 }
+
 .modal-body {
     position: relative;
     padding: 20px;
     text-align: center;
 }
+
 /*-- about-us --*/
 span.border {
     width: 18%;
@@ -449,6 +464,7 @@ span.border {
     position: relative;
     margin: 23px auto 0px;
 }
+
  span.border:after {
        content: ' ';
     position: absolute;
@@ -459,6 +475,7 @@ span.border {
     top: -4px;
     left: 103px;
 }
+
 span.border.one:after {
     content: ' ';
     position: absolute;
@@ -469,44 +486,54 @@ span.border.one:after {
     top: -4px;
     left: 64px;
 }
+
 .about-left-grid h3{
 	font-size:2.5em;
 	color:#FFF;
 }
+
 .about-left-grid{
 	width:70%;
 	float:right;
     margin-right: 10em;
 	min-height:433px;
 }
+
 .about-left-grid h2{
 	color:#191919;
 	font-size:2em;
 }
+
 .about-left-grid h2 span{
 	font-weight:700;
 }
+
 .about-left-grid p{
     color: #666666;
     font-size:1em;
     line-height: 2em;
     margin-top: 1.5em;
 } 
+
 .about-left-grid ul{
 	margin:3em 0 0 0;
 	padding:0;
 }
+
 .about-left-grid ul li{
 	display:inline-block;
 }
+
 .about-left-grid ul li:nth-child(1){
 	margin-right: 0.2em;
 }
+
 .about-left {
       padding: 4.5em 0 4.7em 0;
     float: right;
     background: #f4f4f4;
 }
+
 .about-left-grid ul li a {
        padding: 0.6em 2em;
     font-size: 1.2em;
