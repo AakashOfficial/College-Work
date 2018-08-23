@@ -27,11 +27,6 @@ public class ModThreeDFA implements Method extends DFAMethod{
 		String state = "i";
 		byte ch = 0;
 
-		/*
-		 * Scanner class object is creation for Input from user for Input
-		 * (System.in)
-		 */
-                     
 		System.out.println("Scanner class object Creation");
 		Scanner s = new Scanner(System.in);
 		System.out.println("Scanner class Object is created");
