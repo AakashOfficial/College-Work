@@ -556,6 +556,7 @@ span.border.one:after {
 	-o-border-radius:1.5em;
 	-ms-border-radius:1.5em;
 }
+
 .about-right{
 	    float: left;
 	padding:0;
@@ -615,38 +616,46 @@ span.border.one:after {
     background: #EE692D;
     height: 4px;
 }
+
 .wthree_about_right p{
 	margin:2em 0 3em;
 	color:#999;
 	line-height:1.8em;
 }
+
 .wthree_about_right p i{
 	display:block;
 	margin:1em 0 0;
 }
+
 .wthree_about_right_grid_left{
 	padding: 0;
 }
+
 .wthree_about_right_grid_left i{
 	font-size: 1.7em;
 	color:#00a78e;
 	top:.8em;
 }
+
 .wthree_about_right_grid:hover .wthree_about_right_grid_left i{
 	color:#fff;
 }
+
 .wthree_about_right_grid_right h4{
 	text-transform: uppercase;
     font-size: 1.2em;
     color: #00a78e;
     font-weight: bold;
 }
+
 .wthree_about_right_grid_right p{
 	    margin: 1em 0 0;
     color: #586371;
     line-height: 1.9em;
     font-size: 0.9em;
 }
+
 .wthree_about_right_grid_right {
     padding-right: 0;
 }
