@@ -1897,18 +1897,22 @@ span.border.two:after {
 		min-height: 454px;
 		margin-left: 1em;
 	}
+	
 	.portfolio-grids {
 		margin-top: 1.2em;
 	}
+	
 	.portfolio-modal .modal-content h3 {
 		margin: 0 0 14px 0px;
 		font-size: 1.5em;
 	}
 }
 @media(max-width:375px){
+	
 	.banner-info {
 		margin-top: 1.2em;
 	}
+	
 	.about-left-grid {
 		width: 97%;
 		float: none;
@@ -1916,17 +1920,21 @@ span.border.two:after {
 		min-height: 473px;
 		margin-left: 1em;
 	}
+	
 	.about-left-grid ul li a {
 		padding: 0.4em 1em;
 		font-size: 0.9em;
 	}
+	
 	.logo h1 {
 		font-size: 1.7em;
 	}
+	
 	span.menu img {
 		width:85%;
 		margin-top: 8px;
 	}
+	
 	.news-text {
 		float: right;
 		padding: 0.5em 1em 1.5em 1em;
