@@ -12,10 +12,10 @@ public class LastZeroZero {
 		// TODO Auto-generated constructor stub
 	}
 
-	public static void main(String[] args) {
-
-		int last;
-		String str1,str2;
+	public static void main(String[] args) 
+	{
+	    int last;
+	    String str1,str2;
 	    Scanner s=new Scanner(System.in);
 	    System.out.println("Enter The Size Of String");
 	    int size= s.nextInt();/*Integer.parseInt(args[0]);*/          
