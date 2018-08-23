@@ -662,6 +662,7 @@ span.border.one:after {
 .wthree_about_right_grid:nth-child(2) {
     margin-bottom: 2em;
 }
+
 /* Rectangle In */
 .hvr-rectangle-in {
   display: inline-block;
@@ -683,6 +684,7 @@ span.border.one:after {
     text-align: center;
 	    border-radius: 50%;
 }
+
 .hvr-rectangle-in:before {
   content: "";
   position: absolute;
@@ -702,13 +704,16 @@ span.border.one:after {
   transition-timing-function: ease-out;
       border-radius: 50%;
 }
+
 .hvr-rectangle-in:hover, .hvr-rectangle-in:focus, .hvr-rectangle-in:active {
   color: white;
 }
+
 .hvr-rectangle-in:hover:before, .hvr-rectangle-in:focus:before, .hvr-rectangle-in:active:before,.wthree_about_right_grid:hover .hvr-rectangle-in:before,.agileits_services_grid:hover .hvr-rectangle-in:before{
   -webkit-transform: scale(0);
   transform: scale(0);
 }
+
 .wthree_about_right_grids {
      margin-top: 4em;
 }
