@@ -4,11 +4,13 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+
 html, body{
     font-family: 'Open Sans', sans-serif;
     font-size: 100%;
   	background: #FFf;
 }
+
 body a{
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -16,9 +18,11 @@ body a{
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
+
 body h1,h2,h3,h4,h5,h6{
 	    font-family: 'Asap', sans-serif;
 }
+
 /*-- header --*/
 #home {
     background: url(../images/header-bg.jpg) no-repeat center top;
@@ -30,34 +34,42 @@ body h1,h2,h3,h4,h5,h6{
     min-height:650px;
 	position: relative;
 }
+
 .top-header {
 	padding: 2em 0;
 }
+
 .logo h1 {
     margin: 0;
     text-transform: uppercase;
     font-weight: bold;
      color:#fff;
 }
+
 .logo h1 a{
 	text-decoration:none;
 	 color:#fff;
 }
+
 .logo span {
     border: 7px solid #00a78e;
     padding: 0px 14px;
     font-size: 1.2em;
     color: #fff;
 }
+
 .logo{
 	float:left;
 }
+
 .navigation-right{
 	float:right;
 }
+
 .navigation-right ul li{
 	display:inline-block;
 }
+
 .navigation-right ul li a{
 	color:#fff;
     font-size:1em;
@@ -66,12 +78,15 @@ body h1,h2,h3,h4,h5,h6{
 	text-transform:uppercase;
     font-family: 'Open Sans', sans-serif;
 }
+
 .navigation-right ul li.active a{
 	    color: #00a78e;
 }
+
 span.menu{
 	display:none;
 }
+
 /*-- nav-hover --*/
 .link-effect-3 a {
 	padding: 10px 0;
@@ -81,6 +96,7 @@ span.menu{
 	position: relative;  
     font-family: 'Open Sans', sans-serif;
 }
+
 .link-effect-3 a::before {
 	position: absolute;
 	top: 0;
@@ -95,39 +111,49 @@ span.menu{
 	-moz-transition: max-width 0.5s;
 	transition: max-width 0.5s;
 }
+
 .link-effect-3 a:hover::before {
 	max-width: 100%;
 }
+
 /*--banner-info--*/
 .banner-info {
     background:rgba(23, 20, 20, 0.58);
     margin-top: 4em;
 }
+
 .header-left {
     padding: 3em;
 }
+
 .header-right {
     padding: 3em;
 }
+
 ul.address-text {
     padding: 0;
 }
+
 ul.address {
     padding: 0;
 }
+
 .header-left img {
     width: 100%;
      margin-top: 19px;
 }
+
 .header-right {
     padding-left: 3em;
 }
+
 .header-right h1 {
     font-size: 2.5em;
     color: #fff;
     margin: 0.5em 0 0;
     font-weight: bold;
 }
+
 .header-right h1 {
     font-size: 1.2em;
     color: #FFF;
