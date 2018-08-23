@@ -267,6 +267,7 @@ ul.social-icons{
     transition: .5s all;
     -moz-transition: .5s all;
 }
+
 .social-icons li a:before {
 	content: '';
     display: block;
@@ -280,54 +281,68 @@ ul.social-icons{
 	-ms-transform: rotate(45deg); 
     box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);	
 }
+
 .social-icons li a.fb{
 	background-position: 3px -30px;
 }
+
 .social-icons li a.in{
       background-position: 3px -62px;
 }
+
 .social-icons li a.dott {
 background-position: 3px -94px;
 }
+
 .social-icons li a:hover::before {
     border-color: #00a78e;
 	    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
 /*-- wellcome-note --*/
 .welcome-note{
 	margin:3em 0;
 }
+
 .note{
 	
 }
+
 .note h1{
 	color:#FFF;
 	font-size:2.5em;
 	font-weight:400;
 }
+
 .note h1 span{
 	font-weight:700;
 }
+
 /*-- /blogs --*/
 .news-text {
     float: right;
     padding: 3.38em 2em;
     background: #f4f4f4;
 }
+
 .news-img {
     float: left;
     position: relative;
     padding: 0;
 }
+
 .news-text.two {
     float:left;
 }
+
 .news-img img,.news-img.two  img{
     width: 100%;
 }
+
 .news-img.two {
     float:right;
 }
+
 .news-text h3   {
     font-size: 1.4em;
     color: #333333;
@@ -335,16 +350,19 @@ background-position: 3px -94px;
         margin-bottom: 1em;
 		font-weight:bold;
 }
+
 .news-text p {
     font-size: 0.9em;
     line-height: 1.9em;
     margin: 1em 0 2em 0;
     color: #777;
 }
+
 .news-text h3  a,ul.news li:hover  i{
 	 color:#00a78e;
 	 text-decoration:none;
 }
+
 ul.news li {
     display: inline-block;
        margin-right: 1em;
