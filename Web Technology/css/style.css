@@ -394,3 +394,103 @@ span.border {
     position: relative;
     margin: 23px auto 0px;
 }
+
+ span.border:after {
+       content: ' ';
+    position: absolute;
+    background: #00a78e;
+    height: 7px;
+    display: block;
+    width: 73px;
+    top: -4px;
+    left: 103px;
+}
+span.border.one:after {
+    content: ' ';
+    position: absolute;
+    background: #00a78e;
+    height: 7px;
+    display: block;
+    width: 73px;
+    top: -4px;
+    left: 64px;
+}
+.about-left-grid h3{
+	font-size:2.5em;
+	color:#FFF;
+}
+.about-left-grid{
+	width:70%;
+	float:right;
+    margin-right: 10em;
+	min-height:433px;
+}
+.about-left-grid h2{
+	color:#191919;
+	font-size:2em;
+}
+.about-left-grid h2 span{
+	font-weight:700;
+}
+.about-left-grid p{
+    color: #666666;
+    font-size:1em;
+    line-height: 2em;
+    margin-top: 1.5em;
+} 
+.about-left-grid ul{
+	margin:3em 0 0 0;
+	padding:0;
+}
+.about-left-grid ul li{
+	display:inline-block;
+}
+.about-left-grid ul li:nth-child(1){
+	margin-right: 0.2em;
+}
+.about-left {
+      padding: 4.5em 0 4.7em 0;
+    float: right;
+    background: #f4f4f4;
+}
+.about-left-grid ul li a {
+       padding: 0.6em 2em;
+    font-size: 1.2em;
+    color: #00a78e;
+    border: 2px solid #00a78e;
+    text-decoration: none;
+    border-radius: 1.5em;
+    -webkit-border-radius: 1.5em;
+    -moz-border-radius: 1.5em;
+    -o-border-radius: 1.5em;
+    -ms-border-radius: 1.5em;
+}
+.about-left-grid ul li a:hover{
+	background:#00a78e;
+	color:#FFF;
+	border-radius:1.5em;
+	-webkit-border-radius:1.5em;
+	-moz-border-radius:1.5em;
+	-o-border-radius:1.5em;
+	-ms-border-radius:1.5em;
+}
+.about-right{
+	    float: left;
+	padding:0;
+	background:url(../images/about-pic.jpg) no-repeat 0px 0px;
+	min-height:580px;
+	background-size: cover;
+   -o-background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -ms-background-size: cover;
+}
+/*-- services --*/
+.service-head h3{
+	color: #1b242f;
+    font-size: 2em;
+    font-weight:300;
+     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0 0 0.2em 0;
+}
