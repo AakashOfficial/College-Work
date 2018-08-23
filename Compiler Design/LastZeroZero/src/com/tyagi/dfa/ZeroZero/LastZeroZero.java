@@ -16,9 +16,8 @@ public class LastZeroZero {
 
 		int last;
 		String str1,str2;
-		
-		Scanner s=new Scanner(System.in);
-		System.out.println("Enter The Size Of String");
+	    Scanner s=new Scanner(System.in);
+	    System.out.println("Enter The Size Of String");
 	    int size= s.nextInt();/*Integer.parseInt(args[0]);*/          
 	    int arg[]=new int[size];
 	    
