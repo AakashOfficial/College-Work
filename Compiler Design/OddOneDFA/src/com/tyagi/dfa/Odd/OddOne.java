@@ -56,5 +56,4 @@ int Check = 0;
 	    	System.out.println("String Is Not Accepted");;
 	    }
 	}
-
 }
