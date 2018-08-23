@@ -1181,3 +1181,104 @@ span.border.two {
     position: relative;
     margin: 23px auto 0px;
 }
+
+span.border.two:after {
+    content: ' ';
+    position: absolute;
+    background: #00a78e;
+    height: 7px;
+    display: block;
+    width: 73px;
+    top: -4px;
+    left:65px;
+}
+/*-- footer --*/
+.footer {
+    background: url(../images/contact.jpeg) no-repeat center top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 650px;
+    padding:5em 0 0em 0;
+}
+.footer_top ul li{
+	font-size:22px;
+	line-height:2em;
+	list-style-type:none;
+	text-transform:uppercase;
+	display:inline-block;
+	margin:0 20px;	
+}
+.footer_top ul {
+    margin: 45px 0 45px;
+	border-bottom:1px solid #fff;
+    padding-bottom: 30px;
+}
+.footer_top ul li a{
+	color:#B3B3B3;
+	text-decoration:none;
+	
+}
+/*-- //footer --*/
+.copy_right p {
+      color: #fff;
+    font-size: 0.9em;
+    line-height: 1.9em;
+    margin: 1em 0;
+}
+.copy_right p a{
+    color: #00a78e;
+	text-decoration:none;
+}
+/*-- //contact --*/
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 14px;
+	right: 3%;
+	overflow: hidden;
+	width: 32px;
+	height: 32px;
+	border: none;
+	text-indent: 100%;
+	background: url("../images/movetop.png") no-repeat 0px 0px;
+}
+#toTopHover {
+	width: 32px;
+	height: 32px;
+	display: block;
+	overflow: hidden;
+	float: right;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+}
+/*-- responsive-design --*/
+@media(max-width:1366px){
+	.about-left-grid {
+		width: 70%;
+		float: right;
+		margin-right: 5em;
+		min-height: 433px;
+	}
+	#work,.blog{
+		padding:4em 0;
+	}
+	.footer {
+		min-height: 650px;
+		padding: 4em 0 0em 0;
+	}
+	#port {
+      padding:4em 0 0 0;
+	}
+	.thumb .team_pos {
+		bottom: -83px;
+		left: 0;
+		margin-top: -17px;
+		padding: 6px 0;
+	}
+	
+}
