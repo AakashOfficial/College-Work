@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class LastZeroZero {
 
 	public LastZeroZero() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public static void main(String[] args) 
