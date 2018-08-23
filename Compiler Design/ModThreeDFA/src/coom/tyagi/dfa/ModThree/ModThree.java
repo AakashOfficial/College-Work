@@ -8,9 +8,6 @@ import java.util.Scanner;
  */
 public class ModThree {
 
-	/**
-	 * 
-	 */
 	public ModThree() {
 		// TODO Auto-generated constructor stub
 	}
