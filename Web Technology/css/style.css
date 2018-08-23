@@ -895,6 +895,7 @@ ul.year li:nth-child(5){
 .portfolio-grid-pic img{
 	width:100%;
 }
+
 .portfolio-grid-pic-caption{
 	position:absolute;
 	background:rgba(70, 194, 122, 0.82);
@@ -904,6 +905,7 @@ ul.year li:nth-child(5){
 	width:100%;
 	display:none;
 }
+
 .portfolio-grid-pic-caption a{
 	color:#FFF;
 	text-align:center;
@@ -920,13 +922,16 @@ ul.year li:nth-child(5){
 	margin-top:8em;
 	font-family: 'Asap', sans-serif;
 }
+
 .portfolio-grid-pic-caption a:hover{
 	border-color:#202020;
 	color:#202020;
 }
+
 .portfolio-grid:hover div.portfolio-grid-pic-caption{
 	display:block;
 }
+
 .portfolio-grid-info h5{
 	color: #202020;
 	font-size: 1.4em;
@@ -934,17 +939,21 @@ ul.year li:nth-child(5){
 	padding: 0.875em 0;
 	margin: 0;
 }
+
 .portfolio-grid-info{
 	background:#eeeeee;
 	border-bottom-left-radius: 0.8em;
 	border-bottom-right-radius: 0.8em;
 }
+
 .portfolio-grids{
 	margin-top:3em;
 }
+
 .portfolio{
 	padding:3.5em 0;
 }
+
 /*-- feedback --*/
 .feedback{
 	background: url(../images/feedback-bg.jpg) no-repeat 0px 0px;
@@ -952,6 +961,7 @@ ul.year li:nth-child(5){
 	min-height: 300px;
 	padding: 6em 0 0 0;
 }
+
 .feedback-grid p{
 	color: #FFf;
 	font-size: 1.2em;
@@ -959,6 +969,7 @@ ul.year li:nth-child(5){
 	width: 90%;
 	margin: 0 auto;
 }
+
 .feedback-grid h4{
 	color:#2ec06c;
 	font-weight:700;
@@ -966,6 +977,7 @@ ul.year li:nth-child(5){
 	font-size:1.3em;
 	margin:1em 0 0 0;
 }
+
 .feedback-grid h4 span{
 	color:#FFF;
 	font-weight:400;
