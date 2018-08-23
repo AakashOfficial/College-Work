@@ -8,10 +8,6 @@ import java.util.Scanner;
  */
 public class LastZeroZero {
 
-	public LastZeroZero() {
-		
-	}
-
 	public static void main(String[] args) 
 	{
 	    int last;
