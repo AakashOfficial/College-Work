@@ -1693,18 +1693,22 @@ span.border.two:after {
 		margin-top: -79px;
 		padding: 6px 0;
 	}
+	
 	ul.news li {
 		display: inline-block;
 		margin-right: 0.5em;
 	}
+	
 	.about-right {
 		float: none;
 		min-height: 334px;
 	}
+	
 	.about-left-grid ul {
 		margin: 1.5em 0 0 0;
 		padding: 0;
 	}
+	
 	.about-left-grid {
 		width: 93%;
 		float: none;
@@ -1712,48 +1716,59 @@ span.border.two:after {
 		min-height: 390px;
 		margin-left: 2em;
 	}
+	
 	.about-left-grid ul li a {
 		padding: 0.6em 2em;
 		font-size: 0.9em;
 	}
+	
 	.modal-dialog.about {
 		width: 442px;
 		margin: 2em auto 0;
 	}
+	
 	.header-right {
 	    padding-left:0em;
 		float: left;
 		width: 100%;
 		padding: 1em 1em 0em 1em;
 	}
+	
 	.header-right h1 {
 		font-size: 1em;
 		padding: .4em 1em;
 	}
+	
 	.header-left {
 		padding: 0em 1em 1em 1em;
 		float: right;
 		width: 100%;
 	}
+	
 	.header-left img {
 		width: 100%;
 		margin-top: 3px;
 	}
+	
 	.logo h1 {
 		margin: 0;
 		font-size: 1.8em;
 	}
+	
 	.logo span {
 		border: 7px solid #00a78e;
 		padding: 0px 10px;
 		font-size: 1.2em;
 	}
+	
 	.top-header {
 		padding: 1.5em 0 0 0;
 	}
+	
 	.navigation-right {
 		margin: 0em 0 0;
 	}
+	
 	ul.year li {
 		margin-top: 10px;
 		font-size: 1em;
@@ -1763,6 +1778,7 @@ span.border.two:after {
 		margin: 0 auto;
 		margin-bottom: 1em;
 	}
+	
 	.resp-tabs-list {
 		margin: 0em 0 1em 0;
 		padding: 0;
