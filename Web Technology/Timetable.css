@@ -6,13 +6,16 @@ table, th, td {
 		   padding:10px;
 		   margin:40px;
           }
+
 		  th{
 		    color:blue;
 			background:orange;
 		  }
+
 		  td{
 		    text-align:center;
 		  }
+
 		  #g1{
 		    color:white;
 			background:black;
