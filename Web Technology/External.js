@@ -21,6 +21,3 @@ $(document).ready( function() {
 		clickEvent = false;
 	});
 });
-
-
-
