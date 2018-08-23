@@ -5,7 +5,6 @@ class Power
 {
   public static void main(String args[])
   {
- 
     int r=1;
     Scanner s=new Scanner(System.in);  
     System.out.println("Enter Number Whose Power To Be Calculate");
@@ -21,7 +20,6 @@ class Power
 
  static int calpower(int n1,int p1)
   {
- 
      int r1=1;
      if(n1>=0&&p1==0)
         r1 =1;
@@ -32,7 +30,5 @@ class Power
          r1=r1 *n1;
      return r1;
  
-    }
- 
-  
+    } 
 }
