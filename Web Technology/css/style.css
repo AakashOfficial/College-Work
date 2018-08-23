@@ -557,25 +557,4 @@ span.border.one:after {
 	-ms-border-radius:1.5em;
 }
 
-.about-right{
-	    float: left;
-	padding:0;
-	background:url(../images/about-pic.jpg) no-repeat 0px 0px;
-	min-height:580px;
-	background-size: cover;
-   -o-background-size: cover;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -ms-background-size: cover;
-}
-
-/*-- services --*/
-.service-head h3{
-	color: #1b242f;
-    font-size: 2em;
-    font-weight:300;
-     font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0 0 0.2em 0;
-}
 
