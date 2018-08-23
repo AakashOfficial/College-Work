@@ -10,7 +10,6 @@ public class OddOne {
 
 	public OddOne() {
 		
-	}
 
 	public static void main(String[] args) {
 
