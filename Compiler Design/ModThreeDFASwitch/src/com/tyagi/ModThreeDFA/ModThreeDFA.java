@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.tyagi.ModThreeDFA;
  /* --> is used to create a system view
 /* for scanner class */
