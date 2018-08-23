@@ -67,11 +67,6 @@
 /*fontcolor*/
 .light-grey {color:#000!important;background-color:#E6E9ED!important}
 
-
-
-
-
-
 /* For Footer */
 
 /* Sticky footer styles
@@ -99,7 +94,6 @@ body {
   height: 60px;
   /*background-color: #f5f5f5;*/
 }
-
 
 /* Custom page CSS
 -------------------------------------------------- */
@@ -137,11 +131,6 @@ body {
     top: auto;
     bottom: 100% !important;
 }
-
-
-
-
-
 
 /*  Contact us */
 @import url(//fonts.googleapis.com/css?family=Quicksand:400,700);
@@ -1048,6 +1037,5 @@ input[type="submit"]:active {
     border-color: #990000;
   }
 }
-
 
 /*  Ends Contact Us */
