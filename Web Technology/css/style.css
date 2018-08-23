@@ -1381,3 +1381,95 @@ span.border.two:after {
     float: none;
     min-height: 517px;
 	}
+
+	.about-left {
+		padding: 3em 0 3em 0;
+		float: none;
+		background: #f4f4f4;
+	}
+	.about-left-grid {
+		width:80%;
+		float: none;
+		margin-right: 0;
+		min-height: 306px;
+		margin-left: 7em;
+	}
+	#home {
+	   min-height: 563px;  
+	}
+	span.border {
+      width: 29%;
+	}
+	span.border.two {
+		width: 27%;
+	}
+	ul.year {
+		text-align: center;
+		margin-left: 0;
+		margin: 0 auto 2em 0;
+		padding:0;
+	}
+	ul.year li {
+		margin-top:10px;
+		font-size: 1em;
+		padding: 11px 0;
+		width: 29%;
+		display: block;
+		margin: 0 auto;
+		    margin-bottom: 1em;
+	}
+	ul.year li:nth-child(2){
+		margin-top: 0px!important;
+	}
+	ul.year li:nth-child(3){
+		margin-top: 0px!important;
+	}
+	ul.year li:nth-child(4){
+		margin-top: 0px!important;
+	}
+	ul.year li:nth-child(5){
+		margin-top: 0px!important;
+		    margin-bottom: 0em;
+	}
+	.timeline > li > .timeline-badge {
+		color: #fff;
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		font-size: 1.4em;
+		position: absolute;
+		top: 16px;
+		left: -3px;
+	}
+	.timeline:before {
+		top: 0;
+		bottom: 0;
+		position: absolute;
+		content: " ";
+		width: 1px;
+		background-color: #ccc;
+		left: 20px;
+		margin-right: -1.5px;
+	}
+	.team-gd {
+		padding: 0;
+		width: 33%;
+		float: left;
+	}
+	.thumb:hover ul li {
+		margin: 113px 0px 0;
+	}
+	.news-img,.news-img.two {
+		float: none;
+		position: relative;
+		padding: 0;
+	}
+	.mail_right {
+		padding: 2em;
+		margin-top: 1em;
+	}
+	.about-left-grid ul li a {
+		padding: 0.6em 2em;
+		font-size: 1em;
+	}
+}
