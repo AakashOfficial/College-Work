@@ -147,9 +147,9 @@ public class ModThreeDFA implements Method extends DFAMethod{
 			DFAMethod dfamethod = new DFAMethod();
                         /* use interface by using class object  */
                         /* DFAMethod = type && newstate =variable */
-                                       DFAMethod newstate = dfamethod.MethodVerify(state);
-                                       /* Assign value of verified state to state (override state) */
-                                       newstate = state;
+                        DFAMethod newstate = dfamethod.MethodVerify(state);
+                        /* Assign value of verified state to state (override state) */
+                        newstate = state;
                                        /* Validate DFA */
                                        dfamethod.checkState(state);
                                           
