@@ -14,14 +14,13 @@ public class OddOne {
 
 	public static void main(String[] args) {
 
-int Check = 0;	
+            int Check = 0;	
 	    Scanner s=new Scanner(System.in);
 	    System.out.println("Enter The Size Of String");
 	    int size= s.nextInt();/*Integer.parseInt(args[0]);*/          
 	    int arg[]=new int[size];
 	    
 	    System.out.println("Enter An String Over Alphabet 0 and 1 Only");
-	    
 	    for(int i=0;i<size;i++) 
 	     {
 	      System.out.println("Enter element :"+i);
