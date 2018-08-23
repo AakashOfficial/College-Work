@@ -7,11 +7,9 @@ class BinarySearch {
         if (start < end) {
             int mid = start + (end - start) / 2;  
             if (key < sortedArray[mid]) {
-                return recursiveBinarySearch(sortedArray, start, mid, key);
-                 
+                return recursiveBinarySearch(sortedArray, start, mid, key);  
             } else if (key > sortedArray[mid]) {
-                return recursiveBinarySearch(sortedArray, mid+1, end , key);
-                 
+                return recursiveBinarySearch(sortedArray, mid+1, end , key);   
             } else {
                 return mid;   
             }
@@ -30,9 +28,8 @@ class BinarySearch {
 		
         index = recursiveBinarySearch(arr1,0,arr1.length,876);
         System.out.println("Found 876 at "+index+" index"); */
-		
-		
-		Scanner s=new Scanner(System.in);
+			
+	Scanner s=new Scanner(System.in);
         int size=Integer.parseInt(arr[0]);          
         int args[]=new int[size];
                                        
@@ -41,10 +38,8 @@ class BinarySearch {
           System.out.println("Enter element :"+i);
           arr[i]=s.nextInt();
          }
-        
+	System.out.println("Enter Element To Be Searched In Array");
+	int Find=s.nextInt();
 		
-		System.out.println("Enter Element To Be Searched In Array");
-		int Find=s.nextInt();
-		
-		int index = recursiveBinarySearch(arr1,0,arr1.length,Find); 
+	int index = recursiveBinarySearch(arr1,0,arr1.length,Find); 
 }
