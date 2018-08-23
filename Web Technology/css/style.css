@@ -1957,22 +1957,28 @@ span.border.two:after {
 	ul.address-text b {
 		font-size: 0.9em;
 	}
+	
 	.logo h1 {
 		font-size: 1.7em;
 	}
+	
 	span.menu img {
 		width:80%;
 		margin-top: 8px;
 	}
+	
 	#work, .blog, #services {
-    padding: 1.2em 0;
+             padding: 1.2em 0;
 	}
+	
 	span.border, span.border.one {
 		width: 61%;
 	}
+	
 	span.border.two {
 		width: 58%;
 	}
+	
 	.thumb .team_pos {
 		bottom: -83px;
 		left: 0;
