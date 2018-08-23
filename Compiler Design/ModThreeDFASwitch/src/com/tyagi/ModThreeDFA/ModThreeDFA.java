@@ -23,7 +23,7 @@ public class ModThreeDFA implements Method extends DFAMethod{
 	 * @param args
 	 */
 	public static void main(String[] tyagi) {
-		// TODO Auto-generated method stub
+		
 		String state = "i";
 		byte ch = 0;
 
