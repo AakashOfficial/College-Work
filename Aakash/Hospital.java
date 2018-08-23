@@ -522,7 +522,6 @@ public class Hospital extends JApplet implements ActionListener {
 		bquit3.addActionListener(this);
 		b1.addActionListener(this);
 		b2.addActionListener(this);
-
 	}
 
 	public void actionPerformed(ActionEvent ae) {
@@ -565,7 +564,6 @@ public class Hospital extends JApplet implements ActionListener {
 				stmt.setString(9, tphone1.getText());
 				stmt.setString(10, null);
 				stmt.executeUpdate();
-
 			} catch (Exception e) {
 				System.out.println(e);
 			}
@@ -655,7 +653,6 @@ public class Hospital extends JApplet implements ActionListener {
 				System.out.println(e);
 			}
 		}
-
 	}
 
 	public static void main(String args[]) {
