@@ -11,9 +11,8 @@ public class ModThree {
 	public ModThree() {
 		// TODO Auto-generated constructor stub
 	}
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public static void main(String[] args)
+	{
             int Check = 0;
 	    Scanner s=new Scanner(System.in);
 	    System.out.println("Enter The Size Of String");
@@ -34,8 +33,6 @@ public class ModThree {
 	          {
 	        	Check++;
 	        	/*return arg[i+1];*/
-	        	
-	            
 	          }
 	         /*else
 	           {
@@ -52,8 +49,6 @@ public class ModThree {
 	    }
 	    else{
 	    	System.out.println("String Is Not Accepted");;
-	    } 
-	    
+	    }    
 	}
-
 }
