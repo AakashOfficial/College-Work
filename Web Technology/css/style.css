@@ -1799,19 +1799,24 @@ span.border.two:after {
 		margin-bottom: 1em;
 		    padding: 0;
 	}
+	
    .about-right {
 		float: none;
 		min-height: 255px;
 	}
+	
 	.about-left {
 		padding: 1em 0 1em 0;
 	}
+	
 	span.border,	span.border.one {
-      width: 44%;
+           width: 44%;
 	}
+	
 	span.border.two {
 		width: 42%;
 	}
+	
 	.about-left-grid {
 		width: 93%;
 		float: none;
@@ -1819,30 +1824,38 @@ span.border.two:after {
 		min-height: 454px;
 		margin-left: 2em;
 	}
+	
 	.about-right {
 		float: none;
 		min-height: 234px;
 	}
+	
 	#port {
 		padding: 1.5em 0 0 0;
 	}
+	
 	ul.news li {
 		display: inline-block;
 		margin-right: 0em;
 	    margin-bottom:10px;
 	}
+	
 	ul.news li:nth-child(4) {
 		margin-bottom:0;
 	}
+	
 	.about-left-grid h2 {
 		font-size: 1.5em;
 	}
+	
 	.modal-dialog.about {
 		width: 354px;
 		margin: 2em auto 0;
 	}
 }
+
 @media(max-width:384px){
+	
 	ul.year li {
 		margin-top: 10px;
 		font-size: 1em;
@@ -1852,44 +1865,55 @@ span.border.two:after {
 		margin: 0 auto;
 		margin-bottom: 0.5em;
 	}
+	
 	a.read {
        padding: 0.5em 1.5em;
        font-size: 0.9em;
 	}
+	
 	.service-head h3 {
 		font-size: 1.4em;
 	}
+	
 	.mail_right input[type="text"], .mail_right input[type="email"], .mail_right textarea {
 		background: none;
 		padding: 7px 10px;
 		margin-bottom: 6px;
 	}
+	
 	.team-gd {
 		padding: 0;
 		width: 100%;
 		float: left;
 	}
+	
 	.thumb .team_pos {
 		bottom: -83px;
 		left: 0;
 		margin-top: -35px;
 		padding: 6px 0;
 	}
+	
 	.logo h1 {
 		font-size: 1.9em;
 	}
+	
 	.thumb:hover ul li {
 		margin: 123px 0px 0;
 	}
+	
 	.news-text h3 {
-      font-size: 1.1em;
+           font-size: 1.1em;
 	}
+	
 	span.border, span.border.one {
 		width: 49%;
 	}
+	
 	 span.border.two {
 		     width: 49%;
 	 }
+	
 	 .about-left-grid {
 		width: 97%;
 		float: none;
@@ -1907,6 +1931,7 @@ span.border.two:after {
 		font-size: 1.5em;
 	}
 }
+
 @media(max-width:375px){
 	
 	.banner-info {
