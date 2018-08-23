@@ -150,8 +150,8 @@ public class ModThreeDFA implements Method extends DFAMethod{
                         DFAMethod newstate = dfamethod.MethodVerify(state);
                         /* Assign value of verified state to state (override state) */
                         newstate = state;
-                                       /* Validate DFA */
-                                       dfamethod.checkState(state);
+                        /* Validate DFA */
+                        dfamethod.checkState(state);
                                           
 			if (state == "accept" && state =="initial") {
 				System.out.println("String Is Accepted because String has No '0' which 'mod|3|=0' And State Is Final State");
