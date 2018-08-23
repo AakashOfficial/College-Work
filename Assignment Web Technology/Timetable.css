@@ -4,19 +4,24 @@ table, th, td {
 		   background:pink;
 		   color:purple;
 		   padding:10px;
-		   margin:40px;
-          }
-		  th{
-		    color:blue;
-			background:orange;
-		  }
-		  td{
-		    text-align:center;
-		  }
-		  #g1{
-		    color:white;
-			background:black;
-		  }
+		   margin:40px;         
+}
+		  
+th{
+   color:blue;
+   background:orange;		  
+}
+		  
+td{    
+   text-align:center;		  
+}
+
+		  
+#g1{
+    color:white;
+    background:black;		  
+}
+
 		  #g2{
 		    color:black;
 			background:cyan;
