@@ -443,48 +443,4 @@ h4.tittle  {
     margin:3.5em auto 0;
 }
 
-.modal-content.about {
-    background-color: #fff;
-    border-radius: 0px!important;
-}
-
-.modal-body {
-    position: relative;
-    padding: 20px;
-    text-align: center;
-}
-
-/*-- about-us --*/
-span.border {
-    width: 18%;
-    background: #8C8989;
-    height: 1px;
-    display: block;
-    margin-top: 26px;
-    position: relative;
-    margin: 23px auto 0px;
-}
-
- span.border:after {
-       content: ' ';
-    position: absolute;
-    background: #00a78e;
-    height: 7px;
-    display: block;
-    width: 73px;
-    top: -4px;
-    left: 103px;
-}
-
-span.border.one:after {
-    content: ' ';
-    position: absolute;
-    background: #00a78e;
-    height: 7px;
-    display: block;
-    width: 73px;
-    top: -4px;
-    left: 64px;
-}
-
 
