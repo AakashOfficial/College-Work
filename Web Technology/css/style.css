@@ -695,23 +695,28 @@ span.border.one:after {
 .wthree_about_right_grids {
      margin-top: 4em;
 }
+
 #services {
     padding: 5em 0;
     background: #1b242f;
 }
+
 .service-head.one h3{
 	color:#fff;
 }
+
 /*-- clients --*/
 
 #work {
     padding: 5em 0;
 }
+
 .timeline {
   list-style: none;
       padding: 10px 0 10px;
   position: relative;
 }
+
 .timeline:before {
       top: 0;
     bottom: 0;
@@ -749,14 +754,17 @@ span.border.one:after {
       background: #fff;
 	  border-bottom: 5px solid #00a78e;
 }
+
 h4.timeline-title a {
     margin: 0;
     padding: 5px 0;
     color:#333;
 }
+
 h4.timeline-title a:hover {
     color: #00C6D7;
 }
+
 .timeline-body p {
     font-size: 0.9em;
     margin: 0;
@@ -764,6 +772,7 @@ h4.timeline-title a:hover {
     color: #777;
     line-height: 1.9em;
 }
+
 .timeline > li > .timeline-panel:before {
   position: absolute;
   top: 18px;
@@ -822,21 +831,26 @@ h4.timeline-title a:hover {
 .timeline-badge.danger {
   background-color: #bb1e10 !important;
 }
+
 .timeline-badge.pass {
   background-color: #fdbd10 !important;
 }
+
 .timeline-badge.info {
   background-color: #44c7f4 !important;
 }
+
 h4.timeline-title {
        color: #1b242f;
     font-size: 1.2em;
         font-weight: 600;
 }
+
 ul.year {
     text-align: right;
 	    margin-left: 13em;
 }
+
 ul.year li {
      list-style: none;
     margin-top:30px;
@@ -848,24 +862,31 @@ ul.year li {
     width:60%;
     display: block;
 }
+
 ul.year li:nth-child(2){
 	    margin-top: 119px;
 }
+
 ul.year li:nth-child(3){
 	    margin-top: 129px;
 }
+
 ul.year li:nth-child(4){
 	    margin-top: 116px;
 }
+
 ul.year li:nth-child(5){
 	    margin-top: 112px;
 }
+
 .timeline-badge.success i {
     font-size: 0.9em;
 }
+
 .time-main {
     margin-top: 3em;
 }
+
 /*--//work--*/
 /*-- portfolio --*/
 .portfolio-head h2{
@@ -875,10 +896,12 @@ ul.year li:nth-child(5){
 	margin:0;
 	padding:0;
 }
+
 .portfolio-head h2 span{
 	font-weight:700;
 	color:#2ec06c;
 }
+
 .portfolio-head p:nth-child(2){
 	font-size:1.1em;
 	line-height:1.8em;
@@ -886,12 +909,15 @@ ul.year li:nth-child(5){
 	width:80%;
 	margin:1em auto 0 auto;
 }
+
 .portfolio-grid{
 	margin-bottom:1.8em;
 }
+
 .portfolio-grid-pic{
 	position:relative;
 }
+
 .portfolio-grid-pic img{
 	width:100%;
 }
