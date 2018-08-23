@@ -1282,3 +1282,102 @@ span.border.two:after {
 	}
 	
 }
+
+@media(max-width:1280px){
+	
+	.thumb .team_pos {
+		bottom: -83px;
+		left: 0;
+		margin-top: -28px;
+		padding: 6px 0;
+	}
+	.service-head h3 {
+       font-size: 1.8em;
+	}
+	.about-left {
+        padding: 5.5em 0 3.5em 0;
+	}
+	.about-left-grid p {
+		font-size:0.9em;
+		line-height: 2em;
+		margin-top: 0.5em;
+	}
+}
+@media(max-width:1024px){
+	.about-left {
+        padding:4em 0 3.5em 0;
+	}
+	.about-left-grid {
+		width: 70%;
+		float: right;
+		margin-right:5em;
+		min-height: 459px;
+	}
+	.news-text {
+		float: right;
+		padding: 0.7em 2em 2em 2em;
+	}
+	#work,.blog,#services {
+		padding: 3em 0;
+	}
+	#port {
+		padding: 3em 0 0 0;
+	}
+	.footer {
+		min-height: 587px;
+		padding: 3em 0 0em 0;
+	}
+	ul.year li:nth-child(2) {
+		margin-top: 157px;
+	}
+	ul.year li:nth-child(3) {
+		margin-top: 145px;
+	}
+	ul.year li:nth-child(4) {
+		margin-top: 149px;
+	}
+	ul.year li:nth-child(5) {
+		margin-top: 147px;
+	}
+	.thumb .team_pos {
+		bottom: -83px;
+		left: 0;
+		margin-top: -50px;
+		padding: 6px 0;
+	}
+}
+@media(max-width:991px){
+	.navigation-right ul li a {
+       font-size: 0.9em;
+	}
+	.link-effect-3 a {
+		padding: 10px 0;
+		margin: 6px 4px;
+	}
+	.header-left {
+		padding: 2em 2em 0em 0;
+		float: right;
+		width: 49%;
+	}
+	.header-right {
+		padding-left: 3em;
+		float: left;
+		width: 50%;
+		padding: 2em;
+	}
+	.banner-info {
+		background: rgba(47, 44, 44, 0.58);
+		margin-top:3em;
+	}
+	ul.address li ul.address-text li {
+		display: inline-block;
+		font-size: 0.9em;
+		margin-top: 1em;
+	}
+	ul.address li ul.address-text li:nth-child(1) {
+		width: 26%;
+	}
+	.about-right {
+    float: none;
+    min-height: 517px;
+	}
