@@ -15,11 +15,10 @@ import com.tyagi.DFA.methods.Method;
  */
 public class ModThreeDFA implements Method extends DFAMethod{
 
-	public static void main(String[] tyagi) {
-		
+	public static void main(String[] tyagi)
+	{	
 		String state = "i";
 		byte ch = 0;
-
 		System.out.println("Scanner class object Creation");
 		Scanner s = new Scanner(System.in);
 		System.out.println("Scanner class Object is created");
