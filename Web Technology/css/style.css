@@ -1932,12 +1932,14 @@ span.border.two:after {
 		padding: 0.5em 1em 1.5em 1em;
 	}
 }
+
 @media(max-width:320px){
 	.resp-tab-item {
 		margin: 0 0px 4px 0;
 		padding: 6px 9px;
 		font-size: 13px;
 	}
+	
 	.about-left-grid {
 		width: 94%;
 		float: none;
@@ -1945,15 +1947,18 @@ span.border.two:after {
 		min-height: 544px;
 		margin-left: 1em;
 	}
+	
 	ul.address {
 		margin-top: 1em;
 	}
+	
 	.header-right {
 		padding-left: 0em;
 		float: left;
 		width: 100%;
 		padding: 0.5em 0.5em 0em 0.5em;
 	}
+	
 	ul.address-text b {
 		font-size: 0.9em;
 	}
