@@ -8,9 +8,6 @@ import java.util.Scanner;
  */
 public class OddOne {
 
-	/**
-	 * 
-	 */
 	public OddOne() {
 		// TODO Auto-generated constructor stub
 	}
