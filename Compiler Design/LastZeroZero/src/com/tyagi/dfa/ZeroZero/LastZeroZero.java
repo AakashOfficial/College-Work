@@ -37,12 +37,10 @@ public class LastZeroZero {
 	      arg[i]=s.nextInt();	      
 	     }
 	    if(arg[size-1]==0){
-	    
 	    	if(arg[size-1]==0){
 	    		System.out.println("The String Is Accepted and The Accepted String Is");
-	    	     for(int i=0;i<size;i++)
-	    	      {
-	    	       System.out.println("arg["+i+"]:"+arg[i]);
+	    	     for(int i=0;i<size;i++) {
+	    	         System.out.println("arg["+i+"]:"+arg[i]);
 	    	      }
 	    	     
 	    	     System.out.println("The Last Two Digits Of String Is");
@@ -50,12 +48,10 @@ public class LastZeroZero {
 	    	      {
 	    	       System.out.println("arg["+i+"]:"+arg[i]);
 	    	      }
-	    	      
 	    	}
 	    }
 	    else{
 	    	System.out.println("String Is Not Accepted");
 	    }	    
 	}
-
 }
