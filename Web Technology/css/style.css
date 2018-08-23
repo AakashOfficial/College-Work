@@ -376,25 +376,3 @@ ul.news li a{
     font-size: 0.9em;
     color: #777;
 }
-
-ul.news li i{
-	color:#333;
-}
-
-a.read {
-    padding: 0.5em 1.5em;
-    font-size: 1em;
-    color: #00a78e;
-    border: 2px solid #00a78e;
-    text-decoration: none;
-    border-radius: 1.5em;
-    -webkit-border-radius: 1.5em;
-    -moz-border-radius: 1.5em;
-    -o-border-radius: 1.5em;
-    -ms-border-radius: 1.5em;
-}
-
-a.read:hover {
-	background:#00a78e;
-	color:#fff;
-}
