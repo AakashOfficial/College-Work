@@ -99,6 +99,7 @@
                             $respTabs.find('.resp-tab-content[aria-labelledby = ' + $tabAria + ']').addClass('resp-tab-content-active').attr('style', 'display:block');
                         }
                     });
+                    
                     //Window resize function                   
                     $(window).resize(function () {
                         $respTabs.find('.resp-accordion-closed').removeAttr('style');
