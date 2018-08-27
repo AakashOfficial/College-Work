@@ -170,22 +170,22 @@ ul.dropdown-menu li:after {
 /*-- //top-nav --*/
 
 
-
-
-
 /*  Slider Css */
 body
 {
     padding-top: 20px;
 }
+
 #myCarousel .nav a small
 {
     display: block;
 }
+
 #myCarousel .nav
 {
     background: #eee;
 }
+
 .nav-justified > li > a
 {
     border-radius: 0px;
