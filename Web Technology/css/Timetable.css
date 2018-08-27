@@ -13,10 +13,12 @@ table, th, td {
 		  td{
 		    text-align:center;
 		  }
+
 		  #g1{
 		    color:white;
 			background:black;
 		  }
+
 		  #g2{
 		    color:black;
 			background:cyan;
