@@ -122,7 +122,6 @@ jQuery.extend( jQuery.easing,
 	easeInBounce: function (x, t, b, c, d) {
 		return c - jQuery.easing.easeOutBounce (x, d-t, 0, c, d) + b;
 	},
-	
 	easeOutBounce: function (x, t, b, c, d) {
 		if ((t/=d) < (1/2.75)) {
 			return c*(7.5625*t*t) + b;
@@ -134,7 +133,6 @@ jQuery.extend( jQuery.easing,
 			return c*(7.5625*(t-=(2.625/2.75))*t + .984375) + b;
 		}
 	},
-	
 	easeInOutBounce: function (x, t, b, c, d) {
 		if (t < d/2) return jQuery.easing.easeInBounce (x, t*2, 0, c, d) * .5 + b;
 		return jQuery.easing.easeOutBounce (x, t*2-d, 0, c, d) * .5 + c*.5 + b;
