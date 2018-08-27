@@ -122,6 +122,7 @@ jQuery.extend( jQuery.easing,
 	easeInBounce: function (x, t, b, c, d) {
 		return c - jQuery.easing.easeOutBounce (x, d-t, 0, c, d) + b;
 	},
+	
 	easeOutBounce: function (x, t, b, c, d) {
 		if ((t/=d) < (1/2.75)) {
 			return c*(7.5625*t*t) + b;
