@@ -190,3 +190,6 @@ for(var i = 0; i < completedTasksHolder.children.length; i++) {
 
 
 
+
+
+
